@@ -1,0 +1,4610 @@
+﻿<Customers>
+  <Customer>
+    <FirstName>Allan</FirstName>
+    <LastName>Sherwood</LastName>
+    <Line1>100 East Ridgewood Ave.</Line1>
+    <Line2></Line2>
+    <City>Paramus</City>
+    <State>NJ</State>
+    <ZipCode>07652</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Allan</FirstName>
+    <LastName>Sherwood</LastName>
+    <Line1>21 Rosewood Rd.</Line1>
+    <Line2></Line2>
+    <City>Woodcliff Lake</City>
+    <State>NJ</State>
+    <ZipCode>07677</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Barry</FirstName>
+    <LastName>Zimmer</LastName>
+    <Line1>16285 Wendell St.</Line1>
+    <Line2></Line2>
+    <City>Omaha</City>
+    <State>NE</State>
+    <ZipCode>68135</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Christine</FirstName>
+    <LastName>Brown</LastName>
+    <Line1>19270 NW Cornell Rd.</Line1>
+    <Line2></Line2>
+    <City>Beaverton</City>
+    <State>OR</State>
+    <ZipCode>97006</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>David</FirstName>
+    <LastName>Goldstein</LastName>
+    <Line1>186 Vermont St.</Line1>
+    <Line2>Apt. 2</Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>David</FirstName>
+    <LastName>Goldstein</LastName>
+    <Line1>1374 46th Ave.</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94129</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Erin</FirstName>
+    <LastName>Valentino</LastName>
+    <Line1>6982 Palm Ave.</Line1>
+    <Line2></Line2>
+    <City>Fresno</City>
+    <State>CA</State>
+    <ZipCode>93711</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Frank Lee</FirstName>
+    <LastName>Wilson</LastName>
+    <Line1>23 Mountain View St.</Line1>
+    <Line2></Line2>
+    <City>Denver</City>
+    <State>CO</State>
+    <ZipCode>80208</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gary</FirstName>
+    <LastName>Hernandez</LastName>
+    <Line1>7361 N. 41st St.</Line1>
+    <Line2>Apt. B</Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10012</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gary</FirstName>
+    <LastName>Hernandez</LastName>
+    <Line1>3829 Broadway Ave.</Line1>
+    <Line2>Suite 2</Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10012</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Heather</FirstName>
+    <LastName>Esway</LastName>
+    <Line1>2381 Buena Vista St.</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90023</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Heather</FirstName>
+    <LastName>Esway</LastName>
+    <Line1>291 W. Hollywood Blvd.</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90024</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>James</FirstName>
+    <LastName>Butt</LastName>
+    <Line1>96950 Hidden Ln</Line1>
+    <Line2></Line2>
+    <City>Aberdeen</City>
+    <State>MD</State>
+    <ZipCode>21001</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Josephine</FirstName>
+    <LastName>Darakjy</LastName>
+    <Line1>6980 Dorsett Rd</Line1>
+    <Line2></Line2>
+    <City>Abilene</City>
+    <State>KS</State>
+    <ZipCode>67410</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Art</FirstName>
+    <LastName>Venere</LastName>
+    <Line1>33 State St</Line1>
+    <Line2></Line2>
+    <City>Abilene</City>
+    <State>TX</State>
+    <ZipCode>79601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Art</FirstName>
+    <LastName>Venere</LastName>
+    <Line1>5 E Truman Rd</Line1>
+    <Line2></Line2>
+    <City>Abilene</City>
+    <State>TX</State>
+    <ZipCode>79602</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lenna</FirstName>
+    <LastName>Paprocki</LastName>
+    <Line1>8284 Hart St</Line1>
+    <Line2></Line2>
+    <City>Abilene</City>
+    <State>KS</State>
+    <ZipCode>67410</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Donette</FirstName>
+    <LastName>Foller</LastName>
+    <Line1>9387 Charcot Ave</Line1>
+    <Line2></Line2>
+    <City>Absecon</City>
+    <State>NJ</State>
+    <ZipCode>8201</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Simona</FirstName>
+    <LastName>Morasca</LastName>
+    <Line1>3777 E Richmond St #900</Line1>
+    <Line2></Line2>
+    <City>Akron</City>
+    <State>OH</State>
+    <ZipCode>44302</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mitsue</FirstName>
+    <LastName>Tollner</LastName>
+    <Line1>74 S Westgate St</Line1>
+    <Line2></Line2>
+    <City>Albany</City>
+    <State>NY</State>
+    <ZipCode>12204</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mitsue</FirstName>
+    <LastName>Tollner</LastName>
+    <Line1>9390 S Howell Ave</Line1>
+    <Line2></Line2>
+    <City>Albany</City>
+    <State>GA</State>
+    <ZipCode>31701</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leota</FirstName>
+    <LastName>Dilliard</LastName>
+    <Line1>89992 E 15th St</Line1>
+    <Line2></Line2>
+    <City>Alliance</City>
+    <State>NE</State>
+    <ZipCode>69301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sage</FirstName>
+    <LastName>Wieser</LastName>
+    <Line1>812 S Haven St</Line1>
+    <Line2></Line2>
+    <City>Amarillo</City>
+    <State>TX</State>
+    <ZipCode>79109</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kris</FirstName>
+    <LastName>Marrier</LastName>
+    <Line1>72119 S Walker Ave #63</Line1>
+    <Line2></Line2>
+    <City>Anaheim</City>
+    <State>CA</State>
+    <ZipCode>92801</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Minna</FirstName>
+    <LastName>Amigon</LastName>
+    <Line1>639 Main St</Line1>
+    <Line2></Line2>
+    <City>Anchorage</City>
+    <State>AK</State>
+    <ZipCode>99501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Minna</FirstName>
+    <LastName>Amigon</LastName>
+    <Line1>18 Fountain St</Line1>
+    <Line2></Line2>
+    <City>Anchorage</City>
+    <State>AK</State>
+    <ZipCode>99515</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Abel</FirstName>
+    <LastName>Maclead</LastName>
+    <Line1>1747 Calle Amanecer #2</Line1>
+    <Line2></Line2>
+    <City>Anchorage</City>
+    <State>AK</State>
+    <ZipCode>99501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kiley</FirstName>
+    <LastName>Caldarera</LastName>
+    <Line1>735 Crawford Dr</Line1>
+    <Line2></Line2>
+    <City>Anchorage</City>
+    <State>AK</State>
+    <ZipCode>99501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Graciela</FirstName>
+    <LastName>Ruta</LastName>
+    <Line1>560 Civic Center Dr</Line1>
+    <Line2></Line2>
+    <City>Ann Arbor</City>
+    <State>MI</State>
+    <ZipCode>48103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cammy</FirstName>
+    <LastName>Albares</LastName>
+    <Line1>747 Leonis Blvd</Line1>
+    <Line2></Line2>
+    <City>Annandale</City>
+    <State>VA</State>
+    <ZipCode>22003</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mattie</FirstName>
+    <LastName>Poquette</LastName>
+    <Line1>70099 E North Ave</Line1>
+    <Line2></Line2>
+    <City>Arlington</City>
+    <State>TX</State>
+    <ZipCode>76013</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Meaghan</FirstName>
+    <LastName>Garufi</LastName>
+    <Line1>73 W Barstow Ave</Line1>
+    <Line2></Line2>
+    <City>Arlington Heights</City>
+    <State>IL</State>
+    <ZipCode>60004</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gladys</FirstName>
+    <LastName>Rim</LastName>
+    <Line1>3 Mcauley Dr</Line1>
+    <Line2></Line2>
+    <City>Ashland</City>
+    <State>OH</State>
+    <ZipCode>44805</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Yuki</FirstName>
+    <LastName>Whobrey</LastName>
+    <Line1>6 S 33rd St</Line1>
+    <Line2></Line2>
+    <City>Aston</City>
+    <State>PA</State>
+    <ZipCode>19014</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fletcher</FirstName>
+    <LastName>Flosi</LastName>
+    <Line1>92 Broadway</Line1>
+    <Line2></Line2>
+    <City>Astoria</City>
+    <State>NY</State>
+    <ZipCode>11103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bette</FirstName>
+    <LastName>Nicka</LastName>
+    <Line1>45 2nd Ave #9759</Line1>
+    <Line2></Line2>
+    <City>Atlanta</City>
+    <State>GA</State>
+    <ZipCode>30328</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bette</FirstName>
+    <LastName>Nicka</LastName>
+    <Line1>26 Montgomery St</Line1>
+    <Line2></Line2>
+    <City>Atlanta</City>
+    <State>GA</State>
+    <ZipCode>30328</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Veronika</FirstName>
+    <LastName>Inouye</LastName>
+    <Line1>187 Market St</Line1>
+    <Line2></Line2>
+    <City>Atlanta</City>
+    <State>GA</State>
+    <ZipCode>30342</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Willard</FirstName>
+    <LastName>Kolmetz</LastName>
+    <Line1>82 Winsor St #54</Line1>
+    <Line2></Line2>
+    <City>Atlanta</City>
+    <State>GA</State>
+    <ZipCode>30340</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Maryann</FirstName>
+    <LastName>Royster</LastName>
+    <Line1>92 Main St</Line1>
+    <Line2></Line2>
+    <City>Atlantic City</City>
+    <State>NJ</State>
+    <ZipCode>8401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Maryann</FirstName>
+    <LastName>Royster</LastName>
+    <Line1>506 S Hacienda Dr</Line1>
+    <Line2></Line2>
+    <City>Atlantic City</City>
+    <State>NJ</State>
+    <ZipCode>8401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alisha</FirstName>
+    <LastName>Slusarski</LastName>
+    <Line1>59 N Groesbeck Hwy</Line1>
+    <Line2></Line2>
+    <City>Austin</City>
+    <State>TX</State>
+    <ZipCode>78731</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alisha</FirstName>
+    <LastName>Slusarski</LastName>
+    <Line1>2026 N Plankinton Ave #3</Line1>
+    <Line2></Line2>
+    <City>Austin</City>
+    <State>TX</State>
+    <ZipCode>78754</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Allene</FirstName>
+    <LastName>Iturbide</LastName>
+    <Line1>3125 Packer Ave #9851</Line1>
+    <Line2></Line2>
+    <City>Austin</City>
+    <State>TX</State>
+    <ZipCode>78753</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Chanel</FirstName>
+    <LastName>Caudy</LastName>
+    <Line1>228 Runamuck Pl #2808</Line1>
+    <Line2></Line2>
+    <City>Baltimore</City>
+    <State>MD</State>
+    <ZipCode>21224</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ezekiel</FirstName>
+    <LastName>Chui</LastName>
+    <Line1>6 Kains Ave</Line1>
+    <Line2></Line2>
+    <City>Baltimore</City>
+    <State>MD</State>
+    <ZipCode>21215</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Willow</FirstName>
+    <LastName>Kusko</LastName>
+    <Line1>2 S Biscayne Blvd</Line1>
+    <Line2></Line2>
+    <City>Baltimore</City>
+    <State>MD</State>
+    <ZipCode>21230</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bernardo</FirstName>
+    <LastName>Figeroa</LastName>
+    <Line1>4 Iwaena St</Line1>
+    <Line2></Line2>
+    <City>Baltimore</City>
+    <State>MD</State>
+    <ZipCode>21202</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ammie</FirstName>
+    <LastName>Corrio</LastName>
+    <Line1>2 W Scyene Rd #3</Line1>
+    <Line2></Line2>
+    <City>Baltimore</City>
+    <State>MD</State>
+    <ZipCode>21217</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Francine</FirstName>
+    <LastName>Vocelka</LastName>
+    <Line1>37855 Nolan Rd</Line1>
+    <Line2></Line2>
+    <City>Bangor</City>
+    <State>ME</State>
+    <ZipCode>4401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Francine</FirstName>
+    <LastName>Vocelka</LastName>
+    <Line1>34 Saint George Ave #2</Line1>
+    <Line2></Line2>
+    <City>Bangor</City>
+    <State>ME</State>
+    <ZipCode>4401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ernie</FirstName>
+    <LastName>Stenseth</LastName>
+    <Line1>95 Main Ave #2</Line1>
+    <Line2></Line2>
+    <City>Barberton</City>
+    <State>OH</State>
+    <ZipCode>44203</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Albina</FirstName>
+    <LastName>Glick</LastName>
+    <Line1>70 W Main St</Line1>
+    <Line2></Line2>
+    <City>Beachwood</City>
+    <State>OH</State>
+    <ZipCode>44122</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alishia</FirstName>
+    <LastName>Sergi</LastName>
+    <Line1>3 Elmwood Dr</Line1>
+    <Line2></Line2>
+    <City>Beaverton</City>
+    <State>OR</State>
+    <ZipCode>97005</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Solange</FirstName>
+    <LastName>Shinko</LastName>
+    <Line1>34 Raritan Center Pky</Line1>
+    <Line2></Line2>
+    <City>Bellflower</City>
+    <State>CA</State>
+    <ZipCode>90706</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jose</FirstName>
+    <LastName>Stockham</LastName>
+    <Line1>64 Lakeview Ave</Line1>
+    <Line2></Line2>
+    <City>Beloit</City>
+    <State>WI</State>
+    <ZipCode>53511</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rozella</FirstName>
+    <LastName>Ostrosky</LastName>
+    <Line1>2887 Knowlton St #5435</Line1>
+    <Line2></Line2>
+    <City>Berkeley</City>
+    <State>CA</State>
+    <ZipCode>94710</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Valentine</FirstName>
+    <LastName>Gillian</LastName>
+    <Line1>429 Tiger Ln</Line1>
+    <Line2></Line2>
+    <City>Beverly Hills</City>
+    <State>CA</State>
+    <ZipCode>90212</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Valentine</FirstName>
+    <LastName>Gillian</LastName>
+    <Line1>598 43rd St</Line1>
+    <Line2></Line2>
+    <City>Beverly Hills</City>
+    <State>CA</State>
+    <ZipCode>90210</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kati</FirstName>
+    <LastName>Rulapaugh</LastName>
+    <Line1>5 Elmwood Park Blvd</Line1>
+    <Line2></Line2>
+    <City>Biloxi</City>
+    <State>MS</State>
+    <ZipCode>39530</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Youlanda</FirstName>
+    <LastName>Schemmer</LastName>
+    <Line1>9506 Edgemore Ave</Line1>
+    <Line2></Line2>
+    <City>Bladensburg</City>
+    <State>MD</State>
+    <ZipCode>20710</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dyan</FirstName>
+    <LastName>Oldroyd</LastName>
+    <Line1>539 Coldwater Canyon Ave</Line1>
+    <Line2></Line2>
+    <City>Bloomfield</City>
+    <State>NJ</State>
+    <ZipCode>7003</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Roxane</FirstName>
+    <LastName>Campain</LastName>
+    <Line1>772 W River Dr</Line1>
+    <Line2></Line2>
+    <City>Bloomington</City>
+    <State>IN</State>
+    <ZipCode>47404</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lavera</FirstName>
+    <LastName>Perin</LastName>
+    <Line1>70 Euclid Ave #722</Line1>
+    <Line2></Line2>
+    <City>Bohemia</City>
+    <State>NY</State>
+    <ZipCode>11716</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Erick</FirstName>
+    <LastName>Ferencz</LastName>
+    <Line1>74 W College St</Line1>
+    <Line2></Line2>
+    <City>Boise</City>
+    <State>ID</State>
+    <ZipCode>83707</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Erick</FirstName>
+    <LastName>Ferencz</LastName>
+    <Line1>9635 S Main St</Line1>
+    <Line2></Line2>
+    <City>Boise</City>
+    <State>ID</State>
+    <ZipCode>83704</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fatima</FirstName>
+    <LastName>Saylors</LastName>
+    <Line1>67 Rv Cent</Line1>
+    <Line2></Line2>
+    <City>Boise</City>
+    <State>ID</State>
+    <ZipCode>83709</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jina</FirstName>
+    <LastName>Briddick</LastName>
+    <Line1>38938 Park Blvd</Line1>
+    <Line2></Line2>
+    <City>Boston</City>
+    <State>MA</State>
+    <ZipCode>2128</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jina</FirstName>
+    <LastName>Briddick</LastName>
+    <Line1>8 County Center Dr #647</Line1>
+    <Line2></Line2>
+    <City>Boston</City>
+    <State>MA</State>
+    <ZipCode>2210</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kanisha</FirstName>
+    <LastName>Waycott</LastName>
+    <Line1>5 S Colorado Blvd #449</Line1>
+    <Line2></Line2>
+    <City>Bothell</City>
+    <State>WA</State>
+    <ZipCode>98021</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Emerson</FirstName>
+    <LastName>Bowley</LastName>
+    <Line1>4 Webbs Chapel Rd</Line1>
+    <Line2></Line2>
+    <City>Boulder</City>
+    <State>CO</State>
+    <ZipCode>80303</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Blair</FirstName>
+    <LastName>Malet</LastName>
+    <Line1>8590 Lake Lizzie Dr</Line1>
+    <Line2></Line2>
+    <City>Bowling Green</City>
+    <State>OH</State>
+    <ZipCode>43402</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Brock</FirstName>
+    <LastName>Bolognia</LastName>
+    <Line1>70295 Pioneer Ct</Line1>
+    <Line2></Line2>
+    <City>Brandon</City>
+    <State>FL</State>
+    <ZipCode>33511</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lorrie</FirstName>
+    <LastName>Nestle</LastName>
+    <Line1>8 W Cerritos Ave #54</Line1>
+    <Line2></Line2>
+    <City>Bridgeport</City>
+    <State>NJ</State>
+    <ZipCode>8014</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sabra</FirstName>
+    <LastName>Uyetake</LastName>
+    <Line1>46314 Route 130</Line1>
+    <Line2></Line2>
+    <City>Bridgeport</City>
+    <State>CT</State>
+    <ZipCode>6610</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Marjory</FirstName>
+    <LastName>Mastella</LastName>
+    <Line1>50 E Wacker Dr</Line1>
+    <Line2></Line2>
+    <City>Bridgewater</City>
+    <State>NJ</State>
+    <ZipCode>8807</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Karl</FirstName>
+    <LastName>Klonowski</LastName>
+    <Line1>3732 Sherman Ave</Line1>
+    <Line2></Line2>
+    <City>Bridgewater</City>
+    <State>NJ</State>
+    <ZipCode>8807</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tonette</FirstName>
+    <LastName>Wenner</LastName>
+    <Line1>4 B Blue Ridge Blvd</Line1>
+    <Line2></Line2>
+    <City>Brighton</City>
+    <State>MI</State>
+    <ZipCode>48116</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Amber</FirstName>
+    <LastName>Monarrez</LastName>
+    <Line1>6 Gilson St</Line1>
+    <Line2></Line2>
+    <City>Bronx</City>
+    <State>NY</State>
+    <ZipCode>10468</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Shenika</FirstName>
+    <LastName>Seewald</LastName>
+    <Line1>617 Nw 36th Ave</Line1>
+    <Line2></Line2>
+    <City>Brook Park</City>
+    <State>OH</State>
+    <ZipCode>44142</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Delmy</FirstName>
+    <LastName>Ahle</LastName>
+    <Line1>25657 Live Oak St</Line1>
+    <Line2></Line2>
+    <City>Brooklyn</City>
+    <State>NY</State>
+    <ZipCode>11226</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Deeanna</FirstName>
+    <LastName>Juhas</LastName>
+    <Line1>4 Kohler Memorial Dr</Line1>
+    <Line2></Line2>
+    <City>Brooklyn</City>
+    <State>NY</State>
+    <ZipCode>11230</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Deeanna</FirstName>
+    <LastName>Juhas</LastName>
+    <Line1>64 Newman Springs Rd E</Line1>
+    <Line2></Line2>
+    <City>Brooklyn</City>
+    <State>NY</State>
+    <ZipCode>11219</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Blondell</FirstName>
+    <LastName>Pugh</LastName>
+    <Line1>61047 Mayfield Ave</Line1>
+    <Line2></Line2>
+    <City>Brooklyn</City>
+    <State>NY</State>
+    <ZipCode>11223</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jamal</FirstName>
+    <LastName>Vanausdal</LastName>
+    <Line1>49 N Mays St</Line1>
+    <Line2></Line2>
+    <City>Broussard</City>
+    <State>LA</State>
+    <ZipCode>70518</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cecily</FirstName>
+    <LastName>Hollack</LastName>
+    <Line1>8116 Mount Vernon Ave</Line1>
+    <Line2></Line2>
+    <City>Bucyrus</City>
+    <State>OH</State>
+    <ZipCode>44820</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carmelina</FirstName>
+    <LastName>Lindall</LastName>
+    <Line1>42754 S Ash Ave</Line1>
+    <Line2></Line2>
+    <City>Buffalo</City>
+    <State>NY</State>
+    <ZipCode>14228</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Maurine</FirstName>
+    <LastName>Yglesias</LastName>
+    <Line1>4800 Black Horse Pike</Line1>
+    <Line2></Line2>
+    <City>Burlingame</City>
+    <State>CA</State>
+    <ZipCode>94010</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tawna</FirstName>
+    <LastName>Buvens</LastName>
+    <Line1>33 Lewis Rd #46</Line1>
+    <Line2></Line2>
+    <City>Burlington</City>
+    <State>NC</State>
+    <ZipCode>27215</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Penney</FirstName>
+    <LastName>Weight</LastName>
+    <Line1>9 Tower Ave</Line1>
+    <Line2></Line2>
+    <City>Burlington</City>
+    <State>KY</State>
+    <ZipCode>41005</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elly</FirstName>
+    <LastName>Morocco</LastName>
+    <Line1>170 Wyoming Ave</Line1>
+    <Line2></Line2>
+    <City>Burnsville</City>
+    <State>MN</State>
+    <ZipCode>55337</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ilene</FirstName>
+    <LastName>Eroman</LastName>
+    <Line1>7061 N 2nd St</Line1>
+    <Line2></Line2>
+    <City>Burnsville</City>
+    <State>MN</State>
+    <ZipCode>55337</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vallie</FirstName>
+    <LastName>Mondella</LastName>
+    <Line1>3829 Ventura Blvd</Line1>
+    <Line2></Line2>
+    <City>Butte</City>
+    <State>MT</State>
+    <ZipCode>59701</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kallie</FirstName>
+    <LastName>Blackwood</LastName>
+    <Line1>17 Morena Blvd</Line1>
+    <Line2></Line2>
+    <City>Camarillo</City>
+    <State>CA</State>
+    <ZipCode>93012</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Johnetta</FirstName>
+    <LastName>Abdallah</LastName>
+    <Line1>25 Se 176th Pl</Line1>
+    <Line2></Line2>
+    <City>Cambridge</City>
+    <State>MA</State>
+    <ZipCode>2138</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bobbye</FirstName>
+    <LastName>Rhym</LastName>
+    <Line1>1 Garfield Ave #7</Line1>
+    <Line2></Line2>
+    <City>Canton</City>
+    <State>OH</State>
+    <ZipCode>44707</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Micaela</FirstName>
+    <LastName>Rhymes</LastName>
+    <Line1>94 W Dodge Rd</Line1>
+    <Line2></Line2>
+    <City>Carson City</City>
+    <State>NV</State>
+    <ZipCode>89701</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tamar</FirstName>
+    <LastName>Hoogland</LastName>
+    <Line1>13252 Lighthouse Ave</Line1>
+    <Line2></Line2>
+    <City>Cathedral City</City>
+    <State>CA</State>
+    <ZipCode>92234</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Moon</FirstName>
+    <LastName>Parlato</LastName>
+    <Line1>6 S Broadway St</Line1>
+    <Line2></Line2>
+    <City>Cedar Grove</City>
+    <State>NJ</State>
+    <ZipCode>7009</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Laurel</FirstName>
+    <LastName>Reitler</LastName>
+    <Line1>98 Connecticut Ave Nw</Line1>
+    <Line2></Line2>
+    <City>Chagrin Falls</City>
+    <State>OH</State>
+    <ZipCode>44023</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Delisa</FirstName>
+    <LastName>Crupi</LastName>
+    <Line1>1088 Pinehurst St</Line1>
+    <Line2></Line2>
+    <City>Chapel Hill</City>
+    <State>NC</State>
+    <ZipCode>27514</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Viva</FirstName>
+    <LastName>Toelkes</LastName>
+    <Line1>501 N 19th Ave</Line1>
+    <Line2></Line2>
+    <City>Cherry Hill</City>
+    <State>NJ</State>
+    <ZipCode>8002</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Viva</FirstName>
+    <LastName>Toelkes</LastName>
+    <Line1>43496 Commercial Dr #29</Line1>
+    <Line2></Line2>
+    <City>Cherry Hill</City>
+    <State>NJ</State>
+    <ZipCode>8003</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elza</FirstName>
+    <LastName>Lipke</LastName>
+    <Line1>38773 Gravois Ave</Line1>
+    <Line2></Line2>
+    <City>Cheyenne</City>
+    <State>WY</State>
+    <ZipCode>82001</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Devorah</FirstName>
+    <LastName>Chickering</LastName>
+    <Line1>7 Eads St</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60632</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Timothy</FirstName>
+    <LastName>Mulqueen</LastName>
+    <Line1>4284 Dorigo Ln</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60647</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Arlette</FirstName>
+    <LastName>Honeywell</LastName>
+    <Line1>4 Warehouse Point Rd #7</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60638</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dominque</FirstName>
+    <LastName>Dickerson</LastName>
+    <Line1>137 Pioneer Way</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60604</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lettie</FirstName>
+    <LastName>Isenhower</LastName>
+    <Line1>9 Murfreesboro Rd</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60623</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Myra</FirstName>
+    <LastName>Munns</LastName>
+    <Line1>45 E Acacia Ct</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60624</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Stephaine</FirstName>
+    <LastName>Barfield</LastName>
+    <Line1>72 Beechwood Ter</Line1>
+    <Line2></Line2>
+    <City>Chicago</City>
+    <State>IL</State>
+    <ZipCode>60657</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lai</FirstName>
+    <LastName>Gato</LastName>
+    <Line1>72 Mannix Dr</Line1>
+    <Line2></Line2>
+    <City>Cincinnati</City>
+    <State>OH</State>
+    <ZipCode>45203</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Stephen</FirstName>
+    <LastName>Emigh</LastName>
+    <Line1>868 State St #38</Line1>
+    <Line2></Line2>
+    <City>Cincinnati</City>
+    <State>OH</State>
+    <ZipCode>45251</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tyra</FirstName>
+    <LastName>Shields</LastName>
+    <Line1>7 Tarrytown Rd</Line1>
+    <Line2></Line2>
+    <City>Cincinnati</City>
+    <State>OH</State>
+    <ZipCode>45217</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tammara</FirstName>
+    <LastName>Wardrip</LastName>
+    <Line1>83 County Road 437 #8581</Line1>
+    <Line2></Line2>
+    <City>Clarks Summit</City>
+    <State>PA</State>
+    <ZipCode>18411</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cory</FirstName>
+    <LastName>Gibes</LastName>
+    <Line1>2845 Boulder Crescent St</Line1>
+    <Line2></Line2>
+    <City>Cleveland</City>
+    <State>OH</State>
+    <ZipCode>44103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Danica</FirstName>
+    <LastName>Bruschke</LastName>
+    <Line1>80 Pittsford Victor Rd #9</Line1>
+    <Line2></Line2>
+    <City>Cleveland</City>
+    <State>OH</State>
+    <ZipCode>44103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Wilda</FirstName>
+    <LastName>Giguere</LastName>
+    <Line1>82 Us Highway 46</Line1>
+    <Line2></Line2>
+    <City>Clifton</City>
+    <State>NJ</State>
+    <ZipCode>7011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elvera</FirstName>
+    <LastName>Benimadho</LastName>
+    <Line1>47857 Coney Island Ave</Line1>
+    <Line2></Line2>
+    <City>Clinton</City>
+    <State>MD</State>
+    <ZipCode>20735</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carma</FirstName>
+    <LastName>Vanheusen</LastName>
+    <Line1>31 Douglas Blvd #950</Line1>
+    <Line2></Line2>
+    <City>Clovis</City>
+    <State>NM</State>
+    <ZipCode>88101</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Malinda</FirstName>
+    <LastName>Hochard</LastName>
+    <Line1>383 Gunderman Rd #197</Line1>
+    <Line2></Line2>
+    <City>Coatesville</City>
+    <State>PA</State>
+    <ZipCode>19320</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Natalie</FirstName>
+    <LastName>Fern</LastName>
+    <Line1>8597 W National Ave</Line1>
+    <Line2></Line2>
+    <City>Cocoa</City>
+    <State>FL</State>
+    <ZipCode>32922</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lisha</FirstName>
+    <LastName>Centini</LastName>
+    <Line1>9 Vanowen St</Line1>
+    <Line2></Line2>
+    <City>College Station</City>
+    <State>TX</State>
+    <ZipCode>77840</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Arlene</FirstName>
+    <LastName>Klusman</LastName>
+    <Line1>8 Us Highway 22</Line1>
+    <Line2></Line2>
+    <City>Colorado Springs</City>
+    <State>CO</State>
+    <ZipCode>80937</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alease</FirstName>
+    <LastName>Buemi</LastName>
+    <Line1>721 Interstate 45 S</Line1>
+    <Line2></Line2>
+    <City>Colorado Springs</City>
+    <State>CO</State>
+    <ZipCode>80919</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Louisa</FirstName>
+    <LastName>Cronauer</LastName>
+    <Line1>98839 Hawthorne Blvd #6101</Line1>
+    <Line2></Line2>
+    <City>Columbia</City>
+    <State>SC</State>
+    <ZipCode>29201</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Angella</FirstName>
+    <LastName>Cetta</LastName>
+    <Line1>6882 Torresdale Ave</Line1>
+    <Line2></Line2>
+    <City>Columbia</City>
+    <State>SC</State>
+    <ZipCode>29201</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cyndy</FirstName>
+    <LastName>Goldammer</LastName>
+    <Line1>74874 Atlantic Ave</Line1>
+    <Line2></Line2>
+    <City>Columbus</City>
+    <State>OH</State>
+    <ZipCode>43215</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rosio</FirstName>
+    <LastName>Cork</LastName>
+    <Line1>20932 Hedley St</Line1>
+    <Line2></Line2>
+    <City>Concord</City>
+    <State>CA</State>
+    <ZipCode>94520</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Celeste</FirstName>
+    <LastName>Korando</LastName>
+    <Line1>523 Marquette Ave</Line1>
+    <Line2></Line2>
+    <City>Concord</City>
+    <State>MA</State>
+    <ZipCode>1742</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Twana</FirstName>
+    <LastName>Felger</LastName>
+    <Line1>386 9th Ave N</Line1>
+    <Line2></Line2>
+    <City>Conroe</City>
+    <State>TX</State>
+    <ZipCode>77301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Estrella</FirstName>
+    <LastName>Samu</LastName>
+    <Line1>77132 Coon Rapids Blvd Nw</Line1>
+    <Line2></Line2>
+    <City>Conroe</City>
+    <State>TX</State>
+    <ZipCode>77301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Donte</FirstName>
+    <LastName>Kines</LastName>
+    <Line1>80312 W 32nd St</Line1>
+    <Line2></Line2>
+    <City>Conroe</City>
+    <State>TX</State>
+    <ZipCode>77301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tiffiny</FirstName>
+    <LastName>Steffensmeier</LastName>
+    <Line1>8728 S Broad St</Line1>
+    <Line2></Line2>
+    <City>Coram</City>
+    <State>NY</State>
+    <ZipCode>11727</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Edna</FirstName>
+    <LastName>Miceli</LastName>
+    <Line1>26659 N 13th St</Line1>
+    <Line2></Line2>
+    <City>Costa Mesa</City>
+    <State>CA</State>
+    <ZipCode>92626</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sue</FirstName>
+    <LastName>Kownacki</LastName>
+    <Line1>189 Village Park Rd</Line1>
+    <Line2></Line2>
+    <City>Crestview</City>
+    <State>FL</State>
+    <ZipCode>32536</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jesusa</FirstName>
+    <LastName>Shin</LastName>
+    <Line1>177 S Rider Trl #52</Line1>
+    <Line2></Line2>
+    <City>Crystal River</City>
+    <State>FL</State>
+    <ZipCode>34429</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rolland</FirstName>
+    <LastName>Francescon</LastName>
+    <Line1>627 Walford Ave</Line1>
+    <Line2></Line2>
+    <City>Dallas</City>
+    <State>TX</State>
+    <ZipCode>75227</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Pamella</FirstName>
+    <LastName>Schmierer</LastName>
+    <Line1>99586 Main St</Line1>
+    <Line2></Line2>
+    <City>Dallas</City>
+    <State>TX</State>
+    <ZipCode>75207</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glory</FirstName>
+    <LastName>Kulzer</LastName>
+    <Line1>75684 S Withlapopka Dr #32</Line1>
+    <Line2></Line2>
+    <City>Dallas</City>
+    <State>TX</State>
+    <ZipCode>75227</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Shawna</FirstName>
+    <LastName>Palaspas</LastName>
+    <Line1>8 S Haven St</Line1>
+    <Line2></Line2>
+    <City>Daytona Beach</City>
+    <State>FL</State>
+    <ZipCode>32114</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Brandon</FirstName>
+    <LastName>Callaro</LastName>
+    <Line1>7116 Western Ave</Line1>
+    <Line2></Line2>
+    <City>Dearborn</City>
+    <State>MI</State>
+    <ZipCode>48126</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Scarlet</FirstName>
+    <LastName>Cartan</LastName>
+    <Line1>3270 Dequindre Rd</Line1>
+    <Line2></Line2>
+    <City>Deer Park</City>
+    <State>NY</State>
+    <ZipCode>11729</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Oretha</FirstName>
+    <LastName>Menter</LastName>
+    <Line1>866 34th Ave</Line1>
+    <Line2></Line2>
+    <City>Denver</City>
+    <State>CO</State>
+    <ZipCode>80231</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ty</FirstName>
+    <LastName>Smith</LastName>
+    <Line1>669 Packerland Dr #1438</Line1>
+    <Line2></Line2>
+    <City>Denver</City>
+    <State>CO</State>
+    <ZipCode>80212</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Xuan</FirstName>
+    <LastName>Rochin</LastName>
+    <Line1>7563 Cornwall Rd #4462</Line1>
+    <Line2></Line2>
+    <City>Denver</City>
+    <State>PA</State>
+    <ZipCode>17517</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lindsey</FirstName>
+    <LastName>Dilello</LastName>
+    <Line1>76598 Rd  I 95 #1</Line1>
+    <Line2></Line2>
+    <City>Denver</City>
+    <State>CO</State>
+    <ZipCode>80216</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Devora</FirstName>
+    <LastName>Perez</LastName>
+    <Line1>78 Maryland Dr #146</Line1>
+    <Line2></Line2>
+    <City>Denville</City>
+    <State>NJ</State>
+    <ZipCode>7834</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Herman</FirstName>
+    <LastName>Demesa</LastName>
+    <Line1>29 Cherry St #7073</Line1>
+    <Line2></Line2>
+    <City>Des Moines</City>
+    <State>IA</State>
+    <ZipCode>50315</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rory</FirstName>
+    <LastName>Papasergi</LastName>
+    <Line1>5384 Southwyck Blvd</Line1>
+    <Line2></Line2>
+    <City>Douglasville</City>
+    <State>GA</State>
+    <ZipCode>30135</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Talia</FirstName>
+    <LastName>Riopelle</LastName>
+    <Line1>4 Ralph Ct</Line1>
+    <Line2></Line2>
+    <City>Dunellen</City>
+    <State>NJ</State>
+    <ZipCode>8812</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Van</FirstName>
+    <LastName>Shire</LastName>
+    <Line1>2167 Sierra Rd</Line1>
+    <Line2></Line2>
+    <City>East Lansing</City>
+    <State>MI</State>
+    <ZipCode>48823</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lucina</FirstName>
+    <LastName>Lary</LastName>
+    <Line1>2 Cedar Ave #84</Line1>
+    <Line2></Line2>
+    <City>Easton</City>
+    <State>MD</State>
+    <ZipCode>21601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bok</FirstName>
+    <LastName>Isaacs</LastName>
+    <Line1>9 N 14th St</Line1>
+    <Line2></Line2>
+    <City>El Cajon</City>
+    <State>CA</State>
+    <ZipCode>92020</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rolande</FirstName>
+    <LastName>Spickerman</LastName>
+    <Line1>395 S 6th St #2</Line1>
+    <Line2></Line2>
+    <City>El Cajon</City>
+    <State>CA</State>
+    <ZipCode>92020</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Howard</FirstName>
+    <LastName>Paulas</LastName>
+    <Line1>87 Sierra Rd</Line1>
+    <Line2></Line2>
+    <City>El Monte</City>
+    <State>CA</State>
+    <ZipCode>91731</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kimbery</FirstName>
+    <LastName>Madarang</LastName>
+    <Line1>92899 Kalakaua Ave</Line1>
+    <Line2></Line2>
+    <City>El Paso</City>
+    <State>TX</State>
+    <ZipCode>79925</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Thurman</FirstName>
+    <LastName>Manno</LastName>
+    <Line1>35 E Main St #43</Line1>
+    <Line2></Line2>
+    <City>Elk Grove Village</City>
+    <State>IL</State>
+    <ZipCode>60007</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Becky</FirstName>
+    <LastName>Mirafuentes</LastName>
+    <Line1>2 Sw Nyberg Rd</Line1>
+    <Line2></Line2>
+    <City>Elkhart</City>
+    <State>IN</State>
+    <ZipCode>46514</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Beatriz</FirstName>
+    <LastName>Corrington</LastName>
+    <Line1>28 S 7th St #2824</Line1>
+    <Line2></Line2>
+    <City>Englewood</City>
+    <State>NJ</State>
+    <ZipCode>7631</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Marti</FirstName>
+    <LastName>Maybury</LastName>
+    <Line1>17 Jersey Ave</Line1>
+    <Line2></Line2>
+    <City>Englewood</City>
+    <State>CO</State>
+    <ZipCode>80110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nieves</FirstName>
+    <LastName>Gotter</LastName>
+    <Line1>7 W 32nd St</Line1>
+    <Line2></Line2>
+    <City>Erie</City>
+    <State>PA</State>
+    <ZipCode>16502</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leatha</FirstName>
+    <LastName>Hagele</LastName>
+    <Line1>555 Main St</Line1>
+    <Line2></Line2>
+    <City>Erie</City>
+    <State>PA</State>
+    <ZipCode>16502</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Valentin</FirstName>
+    <LastName>Klimek</LastName>
+    <Line1>1 N San Saba</Line1>
+    <Line2></Line2>
+    <City>Erie</City>
+    <State>PA</State>
+    <ZipCode>16501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Melissa</FirstName>
+    <LastName>Wiklund</LastName>
+    <Line1>3989 Portage Tr</Line1>
+    <Line2></Line2>
+    <City>Escondido</City>
+    <State>CA</State>
+    <ZipCode>92025</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sheridan</FirstName>
+    <LastName>Zane</LastName>
+    <Line1>105 Richmond Valley Rd</Line1>
+    <Line2></Line2>
+    <City>Escondido</City>
+    <State>CA</State>
+    <ZipCode>92025</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bulah</FirstName>
+    <LastName>Padilla</LastName>
+    <Line1>12270 Caton Center Dr</Line1>
+    <Line2></Line2>
+    <City>Eugene</City>
+    <State>OR</State>
+    <ZipCode>97401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Audra</FirstName>
+    <LastName>Kohnert</LastName>
+    <Line1>461 Prospect Pl #316</Line1>
+    <Line2></Line2>
+    <City>Euless</City>
+    <State>TX</State>
+    <ZipCode>76040</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Daren</FirstName>
+    <LastName>Weirather</LastName>
+    <Line1>37 Alabama Ave</Line1>
+    <Line2></Line2>
+    <City>Evanston</City>
+    <State>IL</State>
+    <ZipCode>60201</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fernanda</FirstName>
+    <LastName>Jillson</LastName>
+    <Line1>1048 Main St</Line1>
+    <Line2></Line2>
+    <City>Fairbanks</City>
+    <State>AK</State>
+    <ZipCode>99708</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gearldine</FirstName>
+    <LastName>Gellinger</LastName>
+    <Line1>20 S Babcock St</Line1>
+    <Line2></Line2>
+    <City>Fairbanks</City>
+    <State>AK</State>
+    <ZipCode>99712</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Chau</FirstName>
+    <LastName>Kitzman</LastName>
+    <Line1>48 Lenox St</Line1>
+    <Line2></Line2>
+    <City>Fairfax</City>
+    <State>VA</State>
+    <ZipCode>22030</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Theola</FirstName>
+    <LastName>Frey</LastName>
+    <Line1>9 Waydell St</Line1>
+    <Line2></Line2>
+    <City>Fairfield</City>
+    <State>NJ</State>
+    <ZipCode>7004</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cheryl</FirstName>
+    <LastName>Haroldson</LastName>
+    <Line1>87 Imperial Ct #79</Line1>
+    <Line2></Line2>
+    <City>Fargo</City>
+    <State>ND</State>
+    <ZipCode>58102</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Laticia</FirstName>
+    <LastName>Merced</LastName>
+    <Line1>1482 College Ave</Line1>
+    <Line2></Line2>
+    <City>Fayetteville</City>
+    <State>NC</State>
+    <ZipCode>28301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carissa</FirstName>
+    <LastName>Batman</LastName>
+    <Line1>61 13 Stoneridge #835</Line1>
+    <Line2></Line2>
+    <City>Findlay</City>
+    <State>OH</State>
+    <ZipCode>45840</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lezlie</FirstName>
+    <LastName>Craghead</LastName>
+    <Line1>76 Brooks St #9</Line1>
+    <Line2></Line2>
+    <City>Flemington</City>
+    <State>NJ</State>
+    <ZipCode>8822</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ozell</FirstName>
+    <LastName>Shealy</LastName>
+    <Line1>7 S Beverly Dr</Line1>
+    <Line2></Line2>
+    <City>Fort Wayne</City>
+    <State>IN</State>
+    <ZipCode>46802</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Arminda</FirstName>
+    <LastName>Parvis</LastName>
+    <Line1>2 S 15th St</Line1>
+    <Line2></Line2>
+    <City>Fort Worth</City>
+    <State>TX</State>
+    <ZipCode>76107</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Reita</FirstName>
+    <LastName>Leto</LastName>
+    <Line1>2 W Mount Royal Ave</Line1>
+    <Line2></Line2>
+    <City>Fortville</City>
+    <State>IN</State>
+    <ZipCode>46040</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Yolando</FirstName>
+    <LastName>Luczki</LastName>
+    <Line1>7163 W Clark Rd</Line1>
+    <Line2></Line2>
+    <City>Freehold</City>
+    <State>NJ</State>
+    <ZipCode>7728</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lizette</FirstName>
+    <LastName>Stem</LastName>
+    <Line1>455 N Main Ave</Line1>
+    <Line2></Line2>
+    <City>Garden City</City>
+    <State>NY</State>
+    <ZipCode>11530</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gregoria</FirstName>
+    <LastName>Pawlowicz</LastName>
+    <Line1>16452 Greenwich St</Line1>
+    <Line2></Line2>
+    <City>Garden City</City>
+    <State>NY</State>
+    <ZipCode>11530</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carin</FirstName>
+    <LastName>Deleo</LastName>
+    <Line1>47154 Whipple Ave Nw</Line1>
+    <Line2></Line2>
+    <City>Gardena</City>
+    <State>CA</State>
+    <ZipCode>90247</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Chantell</FirstName>
+    <LastName>Maynerich</LastName>
+    <Line1>47939 Porter Ave</Line1>
+    <Line2></Line2>
+    <City>Gardena</City>
+    <State>CA</State>
+    <ZipCode>90248</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dierdre</FirstName>
+    <LastName>Yum</LastName>
+    <Line1>2972 Lafayette Ave</Line1>
+    <Line2></Line2>
+    <City>Gardena</City>
+    <State>CA</State>
+    <ZipCode>90248</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Larae</FirstName>
+    <LastName>Gudroe</LastName>
+    <Line1>35433 Blake St #588</Line1>
+    <Line2></Line2>
+    <City>Gardena</City>
+    <State>CA</State>
+    <ZipCode>90248</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Latrice</FirstName>
+    <LastName>Tolfree</LastName>
+    <Line1>22 Spruce St #595</Line1>
+    <Line2></Line2>
+    <City>Gardena</City>
+    <State>CA</State>
+    <ZipCode>90248</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kerry</FirstName>
+    <LastName>Theodorov</LastName>
+    <Line1>2853 S Central Expy</Line1>
+    <Line2></Line2>
+    <City>Glen Burnie</City>
+    <State>MD</State>
+    <ZipCode>21061</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dorthy</FirstName>
+    <LastName>Hidvegi</LastName>
+    <Line1>79 S Howell Ave</Line1>
+    <Line2></Line2>
+    <City>Grand Rapids</City>
+    <State>MI</State>
+    <ZipCode>49546</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fannie</FirstName>
+    <LastName>Lungren</LastName>
+    <Line1>33 N Michigan Ave</Line1>
+    <Line2></Line2>
+    <City>Green Bay</City>
+    <State>WI</State>
+    <ZipCode>54301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Evangelina</FirstName>
+    <LastName>Radde</LastName>
+    <Line1>9 Plainsboro Rd #598</Line1>
+    <Line2></Line2>
+    <City>Greensboro</City>
+    <State>NC</State>
+    <ZipCode>27409</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Novella</FirstName>
+    <LastName>Degroot</LastName>
+    <Line1>88827 Frankford Ave</Line1>
+    <Line2></Line2>
+    <City>Greensboro</City>
+    <State>NC</State>
+    <ZipCode>27401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Clay</FirstName>
+    <LastName>Hoa</LastName>
+    <Line1>4646 Kaahumanu St</Line1>
+    <Line2></Line2>
+    <City>Hackensack</City>
+    <State>NJ</State>
+    <ZipCode>7601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jennifer</FirstName>
+    <LastName>Fallick</LastName>
+    <Line1>34 Center St</Line1>
+    <Line2></Line2>
+    <City>Hamilton</City>
+    <State>OH</State>
+    <ZipCode>45011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Irma</FirstName>
+    <LastName>Wolfgramm</LastName>
+    <Line1>287 Youngstown Warren Rd</Line1>
+    <Line2></Line2>
+    <City>Hampstead</City>
+    <State>MD</State>
+    <ZipCode>21074</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Eun</FirstName>
+    <LastName>Coody</LastName>
+    <Line1>3387 Ryan Dr</Line1>
+    <Line2></Line2>
+    <City>Hanover</City>
+    <State>MD</State>
+    <ZipCode>21076</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sylvia</FirstName>
+    <LastName>Cousey</LastName>
+    <Line1>2 W Beverly Blvd</Line1>
+    <Line2></Line2>
+    <City>Harrisburg</City>
+    <State>PA</State>
+    <ZipCode>17110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nana</FirstName>
+    <LastName>Wrinkles</LastName>
+    <Line1>88 Sw 28th Ter</Line1>
+    <Line2></Line2>
+    <City>Harrison</City>
+    <State>NJ</State>
+    <ZipCode>7029</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Layla</FirstName>
+    <LastName>Springe</LastName>
+    <Line1>2500 Pringle Rd Se #508</Line1>
+    <Line2></Line2>
+    <City>Hatfield</City>
+    <State>PA</State>
+    <ZipCode>19440</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Joesph</FirstName>
+    <LastName>Degonia</LastName>
+    <Line1>8100 Jacksonville Rd #7</Line1>
+    <Line2></Line2>
+    <City>Hays</City>
+    <State>KS</State>
+    <ZipCode>67601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Annabelle</FirstName>
+    <LastName>Boord</LastName>
+    <Line1>69 Marquette Ave</Line1>
+    <Line2></Line2>
+    <City>Hayward</City>
+    <State>CA</State>
+    <ZipCode>94545</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Annabelle</FirstName>
+    <LastName>Boord</LastName>
+    <Line1>38 Pleasant Hill Rd</Line1>
+    <Line2></Line2>
+    <City>Hayward</City>
+    <State>CA</State>
+    <ZipCode>94545</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Stephaine</FirstName>
+    <LastName>Vinning</LastName>
+    <Line1>2184 Worth St</Line1>
+    <Line2></Line2>
+    <City>Hayward</City>
+    <State>CA</State>
+    <ZipCode>94545</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nelida</FirstName>
+    <LastName>Sawchuk</LastName>
+    <Line1>99 Tank Farm Rd</Line1>
+    <Line2></Line2>
+    <City>Hazleton</City>
+    <State>PA</State>
+    <ZipCode>18201</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Marguerita</FirstName>
+    <LastName>Hiatt</LastName>
+    <Line1>60 Old Dover Rd</Line1>
+    <Line2></Line2>
+    <City>Hialeah</City>
+    <State>FL</State>
+    <ZipCode>33014</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carmela</FirstName>
+    <LastName>Cookey</LastName>
+    <Line1>2 Flynn Rd</Line1>
+    <Line2></Line2>
+    <City>Hicksville</City>
+    <State>NY</State>
+    <ZipCode>11801</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Junita</FirstName>
+    <LastName>Brideau</LastName>
+    <Line1>4 10th St W</Line1>
+    <Line2></Line2>
+    <City>High Point</City>
+    <State>NC</State>
+    <ZipCode>27263</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Claribel</FirstName>
+    <LastName>Varriano</LastName>
+    <Line1>18 Waterloo Geneva Rd</Line1>
+    <Line2></Line2>
+    <City>Highland Park</City>
+    <State>IL</State>
+    <ZipCode>60035</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Benton</FirstName>
+    <LastName>Skursky</LastName>
+    <Line1>303 N Radcliffe St</Line1>
+    <Line2></Line2>
+    <City>Hilo</City>
+    <State>HI</State>
+    <ZipCode>96720</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Hillary</FirstName>
+    <LastName>Skulski</LastName>
+    <Line1>5161 Dorsett Rd</Line1>
+    <Line2></Line2>
+    <City>Homestead</City>
+    <State>FL</State>
+    <ZipCode>33030</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Merilyn</FirstName>
+    <LastName>Bayless</LastName>
+    <Line1>9 Wales Rd Ne #914</Line1>
+    <Line2></Line2>
+    <City>Homosassa</City>
+    <State>FL</State>
+    <ZipCode>34448</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Teri</FirstName>
+    <LastName>Ennaco</LastName>
+    <Line1>185 Blackstone Bldge</Line1>
+    <Line2></Line2>
+    <City>Honolulu</City>
+    <State>HI</State>
+    <ZipCode>96817</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Teri</FirstName>
+    <LastName>Ennaco</LastName>
+    <Line1>7 Benton Dr</Line1>
+    <Line2></Line2>
+    <City>Honolulu</City>
+    <State>HI</State>
+    <ZipCode>96819</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Merlyn</FirstName>
+    <LastName>Lawler</LastName>
+    <Line1>2 Lighthouse Ave</Line1>
+    <Line2></Line2>
+    <City>Hopkins</City>
+    <State>MN</State>
+    <ZipCode>55343</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Georgene</FirstName>
+    <LastName>Montezuma</LastName>
+    <Line1>6651 Municipal Rd</Line1>
+    <Line2></Line2>
+    <City>Houma</City>
+    <State>LA</State>
+    <ZipCode>70360</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jettie</FirstName>
+    <LastName>Mconnell</LastName>
+    <Line1>14302 Pennsylvania Ave</Line1>
+    <Line2></Line2>
+    <City>Huntingdon Valley</City>
+    <State>PA</State>
+    <ZipCode>19006</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lemuel</FirstName>
+    <LastName>Latzke</LastName>
+    <Line1>60 Fillmore Ave</Line1>
+    <Line2></Line2>
+    <City>Huntington Beach</City>
+    <State>CA</State>
+    <ZipCode>92647</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Melodie</FirstName>
+    <LastName>Knipp</LastName>
+    <Line1>94 Chase Rd</Line1>
+    <Line2></Line2>
+    <City>Hyattsville</City>
+    <State>MD</State>
+    <ZipCode>20785</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Candida</FirstName>
+    <LastName>Corbley</LastName>
+    <Line1>55 Riverside Ave</Line1>
+    <Line2></Line2>
+    <City>Indianapolis</City>
+    <State>IN</State>
+    <ZipCode>46202</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Karan</FirstName>
+    <LastName>Karpin</LastName>
+    <Line1>55262 N French Rd</Line1>
+    <Line2></Line2>
+    <City>Indianapolis</City>
+    <State>IN</State>
+    <ZipCode>46240</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Andra</FirstName>
+    <LastName>Scheyer</LastName>
+    <Line1>87393 E Highland Rd</Line1>
+    <Line2></Line2>
+    <City>Indianapolis</City>
+    <State>IN</State>
+    <ZipCode>46220</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Felicidad</FirstName>
+    <LastName>Poullion</LastName>
+    <Line1>6538 E Pomona St #60</Line1>
+    <Line2></Line2>
+    <City>Indianapolis</City>
+    <State>IN</State>
+    <ZipCode>46222</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Belen</FirstName>
+    <LastName>Strassner</LastName>
+    <Line1>618 W Yakima Ave</Line1>
+    <Line2></Line2>
+    <City>Irving</City>
+    <State>TX</State>
+    <ZipCode>75062</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gracia</FirstName>
+    <LastName>Melnyk</LastName>
+    <Line1>4 Bloomfield Ave</Line1>
+    <Line2></Line2>
+    <City>Irving</City>
+    <State>TX</State>
+    <ZipCode>75061</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jolanda</FirstName>
+    <LastName>Hanafan</LastName>
+    <Line1>63517 Dupont St</Line1>
+    <Line2></Line2>
+    <City>Jackson</City>
+    <State>MS</State>
+    <ZipCode>39211</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Barrett</FirstName>
+    <LastName>Toyama</LastName>
+    <Line1>11279 Loytan St</Line1>
+    <Line2></Line2>
+    <City>Jacksonville</City>
+    <State>FL</State>
+    <ZipCode>32254</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Helga</FirstName>
+    <LastName>Fredicks</LastName>
+    <Line1>97 Airport Loop Dr</Line1>
+    <Line2></Line2>
+    <City>Jacksonville</City>
+    <State>FL</State>
+    <ZipCode>32216</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ashlyn</FirstName>
+    <LastName>Pinilla</LastName>
+    <Line1>14288 Foster Ave #4121</Line1>
+    <Line2></Line2>
+    <City>Jenkintown</City>
+    <State>PA</State>
+    <ZipCode>19046</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fausto</FirstName>
+    <LastName>Agramonte</LastName>
+    <Line1>4671 Alemany Blvd</Line1>
+    <Line2></Line2>
+    <City>Jersey City</City>
+    <State>NJ</State>
+    <ZipCode>7304</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ronny</FirstName>
+    <LastName>Caiafa</LastName>
+    <Line1>8 Sheridan Rd</Line1>
+    <Line2></Line2>
+    <City>Jersey City</City>
+    <State>NJ</State>
+    <ZipCode>7304</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ronny</FirstName>
+    <LastName>Caiafa</LastName>
+    <Line1>9 State Highway 57 #22</Line1>
+    <Line2></Line2>
+    <City>Jersey City</City>
+    <State>NJ</State>
+    <ZipCode>7306</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Marge</FirstName>
+    <LastName>Limmel</LastName>
+    <Line1>5 Williams St</Line1>
+    <Line2></Line2>
+    <City>Johnston</City>
+    <State>RI</State>
+    <ZipCode>2919</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Norah</FirstName>
+    <LastName>Waymire</LastName>
+    <Line1>2 A Kelley Dr</Line1>
+    <Line2></Line2>
+    <City>Katonah</City>
+    <State>NY</State>
+    <ZipCode>10536</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Aliza</FirstName>
+    <LastName>Baltimore</LastName>
+    <Line1>4 Cowesett Ave</Line1>
+    <Line2></Line2>
+    <City>Kearny</City>
+    <State>NJ</State>
+    <ZipCode>7032</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mozell</FirstName>
+    <LastName>Pelkowski</LastName>
+    <Line1>20113 4th Ave E</Line1>
+    <Line2></Line2>
+    <City>Kearny</City>
+    <State>NJ</State>
+    <ZipCode>7032</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Viola</FirstName>
+    <LastName>Bitsuie</LastName>
+    <Line1>4252 N Washington Ave #9</Line1>
+    <Line2></Line2>
+    <City>Kennedale</City>
+    <State>TX</State>
+    <ZipCode>76060</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Franklyn</FirstName>
+    <LastName>Emard</LastName>
+    <Line1>8772 Old County Rd #5410</Line1>
+    <Line2></Line2>
+    <City>Kent</City>
+    <State>WA</State>
+    <ZipCode>98032</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Willodean</FirstName>
+    <LastName>Konopacki</LastName>
+    <Line1>3424 29th St Se</Line1>
+    <Line2></Line2>
+    <City>Kerrville</City>
+    <State>TX</State>
+    <ZipCode>78028</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Beckie</FirstName>
+    <LastName>Silvestrini</LastName>
+    <Line1>810 N La Brea Ave</Line1>
+    <Line2></Line2>
+    <City>King of Prussia</City>
+    <State>PA</State>
+    <ZipCode>19406</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rebecka</FirstName>
+    <LastName>Gesick</LastName>
+    <Line1>2371 Jerrold Ave</Line1>
+    <Line2></Line2>
+    <City>Kulpsville</City>
+    <State>PA</State>
+    <ZipCode>19443</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Frederica</FirstName>
+    <LastName>Blunk</LastName>
+    <Line1>4 E Colonial Dr</Line1>
+    <Line2></Line2>
+    <City>La Mesa</City>
+    <State>CA</State>
+    <ZipCode>91942</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glen</FirstName>
+    <LastName>Bartolet</LastName>
+    <Line1>87895 Concord Rd</Line1>
+    <Line2></Line2>
+    <City>La Mesa</City>
+    <State>CA</State>
+    <ZipCode>91942</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Freeman</FirstName>
+    <LastName>Gochal</LastName>
+    <Line1>55 Hawthorne Blvd</Line1>
+    <Line2></Line2>
+    <City>Lafayette</City>
+    <State>LA</State>
+    <ZipCode>70506</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vincent</FirstName>
+    <LastName>Meinerding</LastName>
+    <Line1>43 Huey P Long Ave</Line1>
+    <Line2></Line2>
+    <City>Lafayette</City>
+    <State>LA</State>
+    <ZipCode>70508</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vincent</FirstName>
+    <LastName>Meinerding</LastName>
+    <Line1>393 Hammond Dr</Line1>
+    <Line2></Line2>
+    <City>Lafayette</City>
+    <State>LA</State>
+    <ZipCode>70506</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rima</FirstName>
+    <LastName>Bevelacqua</LastName>
+    <Line1>1 Washington St</Line1>
+    <Line2></Line2>
+    <City>Lake Worth</City>
+    <State>FL</State>
+    <ZipCode>33461</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glendora</FirstName>
+    <LastName>Sarbacher</LastName>
+    <Line1>3943 N Highland Ave</Line1>
+    <Line2></Line2>
+    <City>Lancaster</City>
+    <State>PA</State>
+    <ZipCode>17601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Avery</FirstName>
+    <LastName>Steier</LastName>
+    <Line1>206 Main St #2804</Line1>
+    <Line2></Line2>
+    <City>Lansing</City>
+    <State>MI</State>
+    <ZipCode>48933</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cristy</FirstName>
+    <LastName>Lother</LastName>
+    <Line1>56 E Morehead St</Line1>
+    <Line2></Line2>
+    <City>Laredo</City>
+    <State>TX</State>
+    <ZipCode>78045</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nicolette</FirstName>
+    <LastName>Brossart</LastName>
+    <Line1>366 South Dr</Line1>
+    <Line2></Line2>
+    <City>Las Cruces</City>
+    <State>NM</State>
+    <ZipCode>88011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tracey</FirstName>
+    <LastName>Modzelewski</LastName>
+    <Line1>3 Railway Ave #75</Line1>
+    <Line2></Line2>
+    <City>Little Falls</City>
+    <State>NJ</State>
+    <ZipCode>7424</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Virgina</FirstName>
+    <LastName>Tegarden</LastName>
+    <Line1>1844 Southern Blvd</Line1>
+    <Line2></Line2>
+    <City>Little Rock</City>
+    <State>AR</State>
+    <ZipCode>72202</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tiera</FirstName>
+    <LastName>Frankel</LastName>
+    <Line1>2664 Lewis Rd</Line1>
+    <Line2></Line2>
+    <City>Littleton</City>
+    <State>CO</State>
+    <ZipCode>80126</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alaine</FirstName>
+    <LastName>Bergesen</LastName>
+    <Line1>13 S Hacienda Dr</Line1>
+    <Line2></Line2>
+    <City>Livingston</City>
+    <State>NJ</State>
+    <ZipCode>7039</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Earleen</FirstName>
+    <LastName>Mai</LastName>
+    <Line1>2737 Pistorio Rd #9230</Line1>
+    <Line2></Line2>
+    <City>London</City>
+    <State>OH</State>
+    <ZipCode>43140</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leonida</FirstName>
+    <LastName>Gobern</LastName>
+    <Line1>97 E 3rd St #9</Line1>
+    <Line2></Line2>
+    <City>Long Island City</City>
+    <State>NY</State>
+    <ZipCode>11101</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ressie</FirstName>
+    <LastName>Auffrey</LastName>
+    <Line1>50126 N Plankinton Ave</Line1>
+    <Line2></Line2>
+    <City>Longwood</City>
+    <State>FL</State>
+    <ZipCode>32750</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Justine</FirstName>
+    <LastName>Mugnolo</LastName>
+    <Line1>25 E 75th St #69</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90034</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Eladia</FirstName>
+    <LastName>Saulter</LastName>
+    <Line1>5 Tomahawk Dr</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90006</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Eladia</FirstName>
+    <LastName>Saulter</LastName>
+    <Line1>3882 W Congress St #799</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90016</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Chaya</FirstName>
+    <LastName>Malvin</LastName>
+    <Line1>4119 Metropolitan Dr</Line1>
+    <Line2></Line2>
+    <City>Los Angeles</City>
+    <State>CA</State>
+    <ZipCode>90021</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gwenn</FirstName>
+    <LastName>Suffield</LastName>
+    <Line1>7 W Pinhook Rd</Line1>
+    <Line2></Line2>
+    <City>Lynbrook</City>
+    <State>NY</State>
+    <ZipCode>11563</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Salena</FirstName>
+    <LastName>Karpel</LastName>
+    <Line1>2215 Prosperity Dr</Line1>
+    <Line2></Line2>
+    <City>Lyndhurst</City>
+    <State>NJ</State>
+    <ZipCode>7071</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Yoko</FirstName>
+    <LastName>Fishburne</LastName>
+    <Line1>762 S Main St</Line1>
+    <Line2></Line2>
+    <City>Madison</City>
+    <State>WI</State>
+    <ZipCode>53711</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Taryn</FirstName>
+    <LastName>Moyd</LastName>
+    <Line1>4 Nw 12th St #3849</Line1>
+    <Line2></Line2>
+    <City>Madison</City>
+    <State>WI</State>
+    <ZipCode>53717</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Katina</FirstName>
+    <LastName>Polidori</LastName>
+    <Line1>40 Cambridge Ave</Line1>
+    <Line2></Line2>
+    <City>Madison</City>
+    <State>WI</State>
+    <ZipCode>53715</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rickie</FirstName>
+    <LastName>Plumer</LastName>
+    <Line1>3338 A Lockport Pl #6</Line1>
+    <Line2></Line2>
+    <City>Margate City</City>
+    <State>NJ</State>
+    <ZipCode>8402</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alex</FirstName>
+    <LastName>Loader</LastName>
+    <Line1>54169 N Main St</Line1>
+    <Line2></Line2>
+    <City>Massapequa</City>
+    <State>NY</State>
+    <ZipCode>11758</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lashon</FirstName>
+    <LastName>Vizarro</LastName>
+    <Line1>64 5th Ave #1153</Line1>
+    <Line2></Line2>
+    <City>Mc Lean</City>
+    <State>VA</State>
+    <ZipCode>22102</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lashon</FirstName>
+    <LastName>Vizarro</LastName>
+    <Line1>5 Cabot Rd</Line1>
+    <Line2></Line2>
+    <City>Mc Lean</City>
+    <State>VA</State>
+    <ZipCode>22102</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lauran</FirstName>
+    <LastName>Burnard</LastName>
+    <Line1>69734 E Carrillo St</Line1>
+    <Line2></Line2>
+    <City>Mc Minnville</City>
+    <State>TN</State>
+    <ZipCode>37110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ceola</FirstName>
+    <LastName>Setter</LastName>
+    <Line1>1 S Pine St</Line1>
+    <Line2></Line2>
+    <City>Memphis</City>
+    <State>TN</State>
+    <ZipCode>38112</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>My</FirstName>
+    <LastName>Rantanen</LastName>
+    <Line1>2759 Livingston Ave</Line1>
+    <Line2></Line2>
+    <City>Memphis</City>
+    <State>TN</State>
+    <ZipCode>38118</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lorrine</FirstName>
+    <LastName>Worlds</LastName>
+    <Line1>2 W Grand Ave</Line1>
+    <Line2></Line2>
+    <City>Memphis</City>
+    <State>TN</State>
+    <ZipCode>38112</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Peggie</FirstName>
+    <LastName>Sturiale</LastName>
+    <Line1>919 Wall Blvd</Line1>
+    <Line2></Line2>
+    <City>Meridian</City>
+    <State>MS</State>
+    <ZipCode>39307</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Marvel</FirstName>
+    <LastName>Raymo</LastName>
+    <Line1>72 Southern Blvd</Line1>
+    <Line2></Line2>
+    <City>Mesa</City>
+    <State>AZ</State>
+    <ZipCode>85204</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Daron</FirstName>
+    <LastName>Dinos</LastName>
+    <Line1>2 Se 3rd Ave</Line1>
+    <Line2></Line2>
+    <City>Mesquite</City>
+    <State>TX</State>
+    <ZipCode>75149</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>An</FirstName>
+    <LastName>Fritz</LastName>
+    <Line1>596 Santa Maria Ave #7913</Line1>
+    <Line2></Line2>
+    <City>Mesquite</City>
+    <State>TX</State>
+    <ZipCode>75150</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Portia</FirstName>
+    <LastName>Stimmel</LastName>
+    <Line1>426 Wolf St</Line1>
+    <Line2></Line2>
+    <City>Metairie</City>
+    <State>LA</State>
+    <ZipCode>70002</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rhea</FirstName>
+    <LastName>Aredondo</LastName>
+    <Line1>678 3rd Ave</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33196</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Benedict</FirstName>
+    <LastName>Sama</LastName>
+    <Line1>32860 Sierra Rd</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33133</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alyce</FirstName>
+    <LastName>Arias</LastName>
+    <Line1>23 Palo Alto Sq</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33134</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Heike</FirstName>
+    <LastName>Berganza</LastName>
+    <Line1>42744 Hamann Industrial Pky #82</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33136</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carey</FirstName>
+    <LastName>Dopico</LastName>
+    <Line1>1644 Clove Rd</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33155</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dottie</FirstName>
+    <LastName>Hellickson</LastName>
+    <Line1>19 Amboy Ave</Line1>
+    <Line2></Line2>
+    <City>Miami</City>
+    <State>FL</State>
+    <ZipCode>33142</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Deandrea</FirstName>
+    <LastName>Hughey</LastName>
+    <Line1>37275 St  Rt 17m M</Line1>
+    <Line2></Line2>
+    <City>Middle Island</City>
+    <State>NY</State>
+    <ZipCode>11953</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kimberlie</FirstName>
+    <LastName>Duenas</LastName>
+    <Line1>481 W Lemon St</Line1>
+    <Line2></Line2>
+    <City>Middleboro</City>
+    <State>MA</State>
+    <ZipCode>2346</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Martina</FirstName>
+    <LastName>Staback</LastName>
+    <Line1>3273 State St</Line1>
+    <Line2></Line2>
+    <City>Middlesex</City>
+    <State>NJ</State>
+    <ZipCode>8846</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Skye</FirstName>
+    <LastName>Fillingim</LastName>
+    <Line1>278 Bayview Ave</Line1>
+    <Line2></Line2>
+    <City>Milan</City>
+    <State>MI</State>
+    <ZipCode>48160</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jade</FirstName>
+    <LastName>Farrar</LastName>
+    <Line1>322 New Horizon Blvd</Line1>
+    <Line2></Line2>
+    <City>Milwaukee</City>
+    <State>WI</State>
+    <ZipCode>53207</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jade</FirstName>
+    <LastName>Farrar</LastName>
+    <Line1>59 Shady Ln #53</Line1>
+    <Line2></Line2>
+    <City>Milwaukee</City>
+    <State>WI</State>
+    <ZipCode>53214</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Charlene</FirstName>
+    <LastName>Hamilton</LastName>
+    <Line1>9 N College Ave #3</Line1>
+    <Line2></Line2>
+    <City>Milwaukee</City>
+    <State>WI</State>
+    <ZipCode>53216</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Geoffrey</FirstName>
+    <LastName>Acey</LastName>
+    <Line1>755 Harbor Way</Line1>
+    <Line2></Line2>
+    <City>Milwaukee</City>
+    <State>WI</State>
+    <ZipCode>53226</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Stevie</FirstName>
+    <LastName>Westerbeck</LastName>
+    <Line1>1950 5th Ave</Line1>
+    <Line2></Line2>
+    <City>Milwaukee</City>
+    <State>WI</State>
+    <ZipCode>53209</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Pamella</FirstName>
+    <LastName>Fortino</LastName>
+    <Line1>25 Minters Chapel Rd #9</Line1>
+    <Line2></Line2>
+    <City>Minneapolis</City>
+    <State>MN</State>
+    <ZipCode>55401</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Harrison</FirstName>
+    <LastName>Haufler</LastName>
+    <Line1>53075 Sw 152nd Ter #615</Line1>
+    <Line2></Line2>
+    <City>Monroe Township</City>
+    <State>NJ</State>
+    <ZipCode>8831</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Johnna</FirstName>
+    <LastName>Engelberg</LastName>
+    <Line1>62260 Park Stre</Line1>
+    <Line2></Line2>
+    <City>Monroe Township</City>
+    <State>NJ</State>
+    <ZipCode>8831</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Buddy</FirstName>
+    <LastName>Cloney</LastName>
+    <Line1>201 Ridgewood Rd</Line1>
+    <Line2></Line2>
+    <City>Moscow</City>
+    <State>ID</State>
+    <ZipCode>83843</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dalene</FirstName>
+    <LastName>Riden</LastName>
+    <Line1>63 Smith Ln #8343</Line1>
+    <Line2></Line2>
+    <City>Moss</City>
+    <State>TN</State>
+    <ZipCode>38575</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jerry</FirstName>
+    <LastName>Zurcher</LastName>
+    <Line1>6 Van Buren St</Line1>
+    <Line2></Line2>
+    <City>Mount Vernon</City>
+    <State>NY</State>
+    <ZipCode>10553</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Haydee</FirstName>
+    <LastName>Denooyer</LastName>
+    <Line1>2094 Montour Blvd</Line1>
+    <Line2></Line2>
+    <City>Muskegon</City>
+    <State>MI</State>
+    <ZipCode>49442</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Joseph</FirstName>
+    <LastName>Cryer</LastName>
+    <Line1>134 Lewis Rd</Line1>
+    <Line2></Line2>
+    <City>Nashville</City>
+    <State>TN</State>
+    <ZipCode>37211</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Joseph</FirstName>
+    <LastName>Cryer</LastName>
+    <Line1>5221 Bear Valley Rd</Line1>
+    <Line2></Line2>
+    <City>Nashville</City>
+    <State>TN</State>
+    <ZipCode>37211</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Deonna</FirstName>
+    <LastName>Kippley</LastName>
+    <Line1>90177 N 55th Ave</Line1>
+    <Line2></Line2>
+    <City>Nashville</City>
+    <State>TN</State>
+    <ZipCode>37211</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Raymon</FirstName>
+    <LastName>Calvaresi</LastName>
+    <Line1>8139 I Hwy 10 #92</Line1>
+    <Line2></Line2>
+    <City>New Bedford</City>
+    <State>MA</State>
+    <ZipCode>2745</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alecia</FirstName>
+    <LastName>Bubash</LastName>
+    <Line1>9122 Carpenter Ave</Line1>
+    <Line2></Line2>
+    <City>New Haven</City>
+    <State>CT</State>
+    <ZipCode>6511</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ma</FirstName>
+    <LastName>Layous</LastName>
+    <Line1>759 Eldora St</Line1>
+    <Line2></Line2>
+    <City>New Haven</City>
+    <State>CT</State>
+    <ZipCode>6515</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Detra</FirstName>
+    <LastName>Coyier</LastName>
+    <Line1>6649 N Blue Gum St</Line1>
+    <Line2></Line2>
+    <City>New Orleans</City>
+    <State>LA</State>
+    <ZipCode>70116</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Terrilyn</FirstName>
+    <LastName>Rodeigues</LastName>
+    <Line1>3 Secor Rd</Line1>
+    <Line2></Line2>
+    <City>New Orleans</City>
+    <State>LA</State>
+    <ZipCode>70112</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Salome</FirstName>
+    <LastName>Lacovara</LastName>
+    <Line1>3718 S Main St</Line1>
+    <Line2></Line2>
+    <City>New Orleans</City>
+    <State>LA</State>
+    <ZipCode>70130</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Garry</FirstName>
+    <LastName>Keetch</LastName>
+    <Line1>90991 Thorburn Ave</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Matthew</FirstName>
+    <LastName>Neither</LastName>
+    <Line1>2742 Distribution Way</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10025</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Theodora</FirstName>
+    <LastName>Restrepo</LastName>
+    <Line1>128 Bransten Rd</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Noah</FirstName>
+    <LastName>Kalafatis</LastName>
+    <Line1>4486 W O St #1</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10003</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Carmen</FirstName>
+    <LastName>Sweigard</LastName>
+    <Line1>3305 Nabell Ave #679</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10009</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lavonda</FirstName>
+    <LastName>Hengel</LastName>
+    <Line1>8 Industry Ln</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10002</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Junita</FirstName>
+    <LastName>Stoltzman</LastName>
+    <Line1>229 N Forty Driv</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10011</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Herminia</FirstName>
+    <LastName>Nicolozakes</LastName>
+    <Line1>5 Harrison Rd</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10038</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Casie</FirstName>
+    <LastName>Good</LastName>
+    <Line1>38062 E Main St</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10048</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Reena</FirstName>
+    <LastName>Maisto</LastName>
+    <Line1>25346 New Rd</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10016</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mirta</FirstName>
+    <LastName>Mallett</LastName>
+    <Line1>7 S San Marcos Rd</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10004</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cathrine</FirstName>
+    <LastName>Pontoriero</LastName>
+    <Line1>87163 N Main Ave</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10013</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Filiberto</FirstName>
+    <LastName>Tawil</LastName>
+    <Line1>3 Lawton St</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10013</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Raul</FirstName>
+    <LastName>Upthegrove</LastName>
+    <Line1>18 3rd Ave</Line1>
+    <Line2></Line2>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10016</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sarah</FirstName>
+    <LastName>Candlish</LastName>
+    <Line1>47565 W Grand Ave</Line1>
+    <Line2></Line2>
+    <City>Newark</City>
+    <State>NJ</State>
+    <ZipCode>7105</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lucy</FirstName>
+    <LastName>Treston</LastName>
+    <Line1>6794 Lake Dr E</Line1>
+    <Line2></Line2>
+    <City>Newark</City>
+    <State>NJ</State>
+    <ZipCode>7104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Judy</FirstName>
+    <LastName>Aquas</LastName>
+    <Line1>32820 Corkwood Rd</Line1>
+    <Line2></Line2>
+    <City>Newark</City>
+    <State>NJ</State>
+    <ZipCode>7104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Yvonne</FirstName>
+    <LastName>Tjepkema</LastName>
+    <Line1>1610 14th St Nw</Line1>
+    <Line2></Line2>
+    <City>Newport News</City>
+    <State>VA</State>
+    <ZipCode>23608</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kayleigh</FirstName>
+    <LastName>Lace</LastName>
+    <Line1>8977 Connecticut Ave Nw #3</Line1>
+    <Line2></Line2>
+    <City>Niles</City>
+    <State>MI</State>
+    <ZipCode>49120</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Felix</FirstName>
+    <LastName>Hirpara</LastName>
+    <Line1>4 Carroll St</Line1>
+    <Line2></Line2>
+    <City>North Attleboro</City>
+    <State>MA</State>
+    <ZipCode>2760</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tresa</FirstName>
+    <LastName>Sweely</LastName>
+    <Line1>78112 Morris Ave</Line1>
+    <Line2></Line2>
+    <City>North Haven</City>
+    <State>CT</State>
+    <ZipCode>6473</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kristeen</FirstName>
+    <LastName>Turinetti</LastName>
+    <Line1>41 Steel Ct</Line1>
+    <Line2></Line2>
+    <City>Northfield</City>
+    <State>MN</State>
+    <ZipCode>55057</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jenelle</FirstName>
+    <LastName>Regusters</LastName>
+    <Line1>70 Mechanic St</Line1>
+    <Line2></Line2>
+    <City>Northridge</City>
+    <State>CA</State>
+    <ZipCode>91325</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Renea</FirstName>
+    <LastName>Monterrubio</LastName>
+    <Line1>49440 Dearborn St</Line1>
+    <Line2></Line2>
+    <City>Norwalk</City>
+    <State>CT</State>
+    <ZipCode>6854</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Olive</FirstName>
+    <LastName>Matuszak</LastName>
+    <Line1>1933 Packer Ave #2</Line1>
+    <Line2></Line2>
+    <City>Novato</City>
+    <State>CA</State>
+    <ZipCode>94945</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ligia</FirstName>
+    <LastName>Reiber</LastName>
+    <Line1>993 Washington Ave</Line1>
+    <Line2></Line2>
+    <City>Nutley</City>
+    <State>NJ</State>
+    <ZipCode>7110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Christiane</FirstName>
+    <LastName>Eschberger</LastName>
+    <Line1>27846 Lafayette Ave</Line1>
+    <Line2></Line2>
+    <City>Oak Hill</City>
+    <State>FL</State>
+    <ZipCode>32759</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Goldie</FirstName>
+    <LastName>Schirpke</LastName>
+    <Line1>72868 Blackington Ave</Line1>
+    <Line2></Line2>
+    <City>Oakland</City>
+    <State>CA</State>
+    <ZipCode>94606</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Loreta</FirstName>
+    <LastName>Timenez</LastName>
+    <Line1>82 N Highway 67</Line1>
+    <Line2></Line2>
+    <City>Oakley</City>
+    <State>CA</State>
+    <ZipCode>94561</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Fabiola</FirstName>
+    <LastName>Hauenstein</LastName>
+    <Line1>6 Ridgewood Center Dr</Line1>
+    <Line2></Line2>
+    <City>Old Forge</City>
+    <State>PA</State>
+    <ZipCode>18518</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Amie</FirstName>
+    <LastName>Perigo</LastName>
+    <Line1>21575 S Apple Creek Rd</Line1>
+    <Line2></Line2>
+    <City>Omaha</City>
+    <State>NE</State>
+    <ZipCode>68124</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Raina</FirstName>
+    <LastName>Brachle</LastName>
+    <Line1>52777 Leaders Heights Rd</Line1>
+    <Line2></Line2>
+    <City>Ontario</City>
+    <State>CA</State>
+    <ZipCode>91761</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Erinn</FirstName>
+    <LastName>Canlas</LastName>
+    <Line1>703 Beville Rd</Line1>
+    <Line2></Line2>
+    <City>Opa Locka</City>
+    <State>FL</State>
+    <ZipCode>33054</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cherry</FirstName>
+    <LastName>Lietz</LastName>
+    <Line1>1 N Harlem Ave #9</Line1>
+    <Line2></Line2>
+    <City>Orange</City>
+    <State>NJ</State>
+    <ZipCode>7050</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kattie</FirstName>
+    <LastName>Vonasek</LastName>
+    <Line1>93 Redmond Rd #492</Line1>
+    <Line2></Line2>
+    <City>Orlando</City>
+    <State>FL</State>
+    <ZipCode>32803</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lilli</FirstName>
+    <LastName>Scriven</LastName>
+    <Line1>7 W Wabansia Ave #227</Line1>
+    <Line2></Line2>
+    <City>Orlando</City>
+    <State>FL</State>
+    <ZipCode>32822</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Whitley</FirstName>
+    <LastName>Tomasulo</LastName>
+    <Line1>2139 Santa Rosa Ave</Line1>
+    <Line2></Line2>
+    <City>Orlando</City>
+    <State>FL</State>
+    <ZipCode>32801</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Whitley</FirstName>
+    <LastName>Tomasulo</LastName>
+    <Line1>75698 N Fiesta Blvd</Line1>
+    <Line2></Line2>
+    <City>Orlando</City>
+    <State>FL</State>
+    <ZipCode>32806</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Hermila</FirstName>
+    <LastName>Thyberg</LastName>
+    <Line1>63 E Aurora Dr</Line1>
+    <Line2></Line2>
+    <City>Orlando</City>
+    <State>FL</State>
+    <ZipCode>32804</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jesusita</FirstName>
+    <LastName>Flister</LastName>
+    <Line1>77 222 Dr</Line1>
+    <Line2></Line2>
+    <City>Oroville</City>
+    <State>CA</State>
+    <ZipCode>95965</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Caitlin</FirstName>
+    <LastName>Julia</LastName>
+    <Line1>7219 Woodfield Rd</Line1>
+    <Line2></Line2>
+    <City>Overland Park</City>
+    <State>KS</State>
+    <ZipCode>66204</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Roosevelt</FirstName>
+    <LastName>Hoffis</LastName>
+    <Line1>55892 Jacksonville Rd</Line1>
+    <Line2></Line2>
+    <City>Owings Mills</City>
+    <State>MD</State>
+    <ZipCode>21117</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Helaine</FirstName>
+    <LastName>Halter</LastName>
+    <Line1>94290 S Buchanan St</Line1>
+    <Line2></Line2>
+    <City>Pacifica</City>
+    <State>CA</State>
+    <ZipCode>94044</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lorean</FirstName>
+    <LastName>Martabano</LastName>
+    <Line1>7 West Ave #1</Line1>
+    <Line2></Line2>
+    <City>Palatine</City>
+    <State>IL</State>
+    <ZipCode>60067</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>France</FirstName>
+    <LastName>Buzick</LastName>
+    <Line1>3 State Route 35 S</Line1>
+    <Line2></Line2>
+    <City>Paramus</City>
+    <State>NJ</State>
+    <ZipCode>7652</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Justine</FirstName>
+    <LastName>Ferrario</LastName>
+    <Line1>5 W 7th St</Line1>
+    <Line2></Line2>
+    <City>Parkville</City>
+    <State>MD</State>
+    <ZipCode>21234</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Adelina</FirstName>
+    <LastName>Nabours</LastName>
+    <Line1>18 Coronado Ave #563</Line1>
+    <Line2></Line2>
+    <City>Pasadena</City>
+    <State>CA</State>
+    <ZipCode>91106</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Derick</FirstName>
+    <LastName>Dhamer</LastName>
+    <Line1>3381 E 40th Ave</Line1>
+    <Line2></Line2>
+    <City>Passaic</City>
+    <State>NJ</State>
+    <ZipCode>7055</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jerry</FirstName>
+    <LastName>Dallen</LastName>
+    <Line1>2726 Charcot Ave</Line1>
+    <Line2></Line2>
+    <City>Paterson</City>
+    <State>NJ</State>
+    <ZipCode>7501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leota</FirstName>
+    <LastName>Ragel</LastName>
+    <Line1>36 Lancaster Dr Se</Line1>
+    <Line2></Line2>
+    <City>Pearl</City>
+    <State>MS</State>
+    <ZipCode>39208</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jutta</FirstName>
+    <LastName>Amyot</LastName>
+    <Line1>65 W Maple Ave</Line1>
+    <Line2></Line2>
+    <City>Pearl City</City>
+    <State>HI</State>
+    <ZipCode>96782</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Aja</FirstName>
+    <LastName>Gehrett</LastName>
+    <Line1>8429 Miller Rd</Line1>
+    <Line2></Line2>
+    <City>Pelham</City>
+    <State>NY</State>
+    <ZipCode>10803</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kirk</FirstName>
+    <LastName>Herritt</LastName>
+    <Line1>347 Chestnut St</Line1>
+    <Line2></Line2>
+    <City>Peoria</City>
+    <State>AZ</State>
+    <ZipCode>85381</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leonora</FirstName>
+    <LastName>Mauson</LastName>
+    <Line1>6 Harry L Dr #6327</Line1>
+    <Line2></Line2>
+    <City>Perrysburg</City>
+    <State>OH</State>
+    <ZipCode>43551</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Winfred</FirstName>
+    <LastName>Brucato</LastName>
+    <Line1>209 Decker Dr</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19132</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tarra</FirstName>
+    <LastName>Nachor</LastName>
+    <Line1>3 Fort Worth Ave</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19106</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Corinne</FirstName>
+    <LastName>Loder</LastName>
+    <Line1>63381 Jenks Ave</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19134</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dulce</FirstName>
+    <LastName>Labreche</LastName>
+    <Line1>992 Civic Center Dr</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19123</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kate</FirstName>
+    <LastName>Keneipp</LastName>
+    <Line1>73 Southern Blvd</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kaitlyn</FirstName>
+    <LastName>Ogg</LastName>
+    <Line1>4379 Highway 116</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19103</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sherita</FirstName>
+    <LastName>Saras</LastName>
+    <Line1>4441 Point Term Mkt</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19143</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lashawnda</FirstName>
+    <LastName>Stuer</LastName>
+    <Line1>910 Rahway Ave</Line1>
+    <Line2></Line2>
+    <City>Philadelphia</City>
+    <State>PA</State>
+    <ZipCode>19102</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ernest</FirstName>
+    <LastName>Syrop</LastName>
+    <Line1>73 State Road 434 E</Line1>
+    <Line2></Line2>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <ZipCode>85013</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nobuko</FirstName>
+    <LastName>Halsey</LastName>
+    <Line1>1 Huntwood Ave</Line1>
+    <Line2></Line2>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <ZipCode>85017</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lavonna</FirstName>
+    <LastName>Wolny</LastName>
+    <Line1>96541 W Central Blvd</Line1>
+    <Line2></Line2>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <ZipCode>85034</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lashaunda</FirstName>
+    <LastName>Lizama</LastName>
+    <Line1>86350 Roszel Rd</Line1>
+    <Line2></Line2>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <ZipCode>85012</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mariann</FirstName>
+    <LastName>Bilden</LastName>
+    <Line1>9 W Central Ave</Line1>
+    <Line2></Line2>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <ZipCode>85013</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Helene</FirstName>
+    <LastName>Rodenberger</LastName>
+    <Line1>90131 J St</Line1>
+    <Line2></Line2>
+    <City>Pittstown</City>
+    <State>NJ</State>
+    <ZipCode>8867</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Roselle</FirstName>
+    <LastName>Estell</LastName>
+    <Line1>30553 Washington Rd</Line1>
+    <Line2></Line2>
+    <City>Plainfield</City>
+    <State>NJ</State>
+    <ZipCode>7062</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Samira</FirstName>
+    <LastName>Heintzman</LastName>
+    <Line1>66552 Malone Rd</Line1>
+    <Line2></Line2>
+    <City>Plaistow</City>
+    <State>NH</State>
+    <ZipCode>3865</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Margart</FirstName>
+    <LastName>Meisel</LastName>
+    <Line1>13 Gunnison St</Line1>
+    <Line2></Line2>
+    <City>Plano</City>
+    <State>TX</State>
+    <ZipCode>75075</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kristofer</FirstName>
+    <LastName>Bennick</LastName>
+    <Line1>48 Stratford Ave</Line1>
+    <Line2></Line2>
+    <City>Pomona</City>
+    <State>CA</State>
+    <ZipCode>91768</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Weldon</FirstName>
+    <LastName>Acuff</LastName>
+    <Line1>53 W Carey St</Line1>
+    <Line2></Line2>
+    <City>Port Jervis</City>
+    <State>NY</State>
+    <ZipCode>12771</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Shalon</FirstName>
+    <LastName>Shadrick</LastName>
+    <Line1>1 Commerce Way</Line1>
+    <Line2></Line2>
+    <City>Portland</City>
+    <State>OR</State>
+    <ZipCode>97224</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Denise</FirstName>
+    <LastName>Patak</LastName>
+    <Line1>4940 Pulaski Park Dr</Line1>
+    <Line2></Line2>
+    <City>Portland</City>
+    <State>OR</State>
+    <ZipCode>97202</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Louvenia</FirstName>
+    <LastName>Beech</LastName>
+    <Line1>60480 Old Us Highway 51</Line1>
+    <Line2></Line2>
+    <City>Preston</City>
+    <State>MD</State>
+    <ZipCode>21655</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Audry</FirstName>
+    <LastName>Yaw</LastName>
+    <Line1>2881 Lewis Rd</Line1>
+    <Line2></Line2>
+    <City>Prineville</City>
+    <State>OR</State>
+    <ZipCode>97754</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kristel</FirstName>
+    <LastName>Ehmann</LastName>
+    <Line1>65895 S 16th St</Line1>
+    <Line2></Line2>
+    <City>Providence</City>
+    <State>RI</State>
+    <ZipCode>2909</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vincenza</FirstName>
+    <LastName>Zepp</LastName>
+    <Line1>201 Hawk Ct</Line1>
+    <Line2></Line2>
+    <City>Providence</City>
+    <State>RI</State>
+    <ZipCode>2904</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elouise</FirstName>
+    <LastName>Gwalthney</LastName>
+    <Line1>1 Rancho Del Mar Shopping C</Line1>
+    <Line2></Line2>
+    <City>Providence</City>
+    <State>RI</State>
+    <ZipCode>2903</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Venita</FirstName>
+    <LastName>Maillard</LastName>
+    <Line1>9 Hwy</Line1>
+    <Line2></Line2>
+    <City>Providence</City>
+    <State>RI</State>
+    <ZipCode>2906</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kasandra</FirstName>
+    <LastName>Semidey</LastName>
+    <Line1>987 Main St</Line1>
+    <Line2></Line2>
+    <City>Raleigh</City>
+    <State>NC</State>
+    <ZipCode>27601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Xochitl</FirstName>
+    <LastName>Discipio</LastName>
+    <Line1>3958 S Dupont Hwy #7</Line1>
+    <Line2></Line2>
+    <City>Ramsey</City>
+    <State>NJ</State>
+    <ZipCode>7446</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Maile</FirstName>
+    <LastName>Linahan</LastName>
+    <Line1>9745 W Main St</Line1>
+    <Line2></Line2>
+    <City>Randolph</City>
+    <State>NJ</State>
+    <ZipCode>7869</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Krissy</FirstName>
+    <LastName>Rauser</LastName>
+    <Line1>73 Saint Ann St #86</Line1>
+    <Line2></Line2>
+    <City>Reno</City>
+    <State>NV</State>
+    <ZipCode>89502</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Pete</FirstName>
+    <LastName>Dubaldi</LastName>
+    <Line1>8 Mcarthur Ln</Line1>
+    <Line2></Line2>
+    <City>Richboro</City>
+    <State>PA</State>
+    <ZipCode>18954</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Linn</FirstName>
+    <LastName>Paa</LastName>
+    <Line1>36 Enterprise St Se</Line1>
+    <Line2></Line2>
+    <City>Richland</City>
+    <State>WA</State>
+    <ZipCode>99352</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Paris</FirstName>
+    <LastName>Wide</LastName>
+    <Line1>39 Franklin Ave</Line1>
+    <Line2></Line2>
+    <City>Richland</City>
+    <State>WA</State>
+    <ZipCode>99352</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Wynell</FirstName>
+    <LastName>Dorshorst</LastName>
+    <Line1>9677 Commerce Dr</Line1>
+    <Line2></Line2>
+    <City>Richmond</City>
+    <State>VA</State>
+    <ZipCode>23219</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Quentin</FirstName>
+    <LastName>Birkner</LastName>
+    <Line1>393 Lafayette Ave</Line1>
+    <Line2></Line2>
+    <City>Richmond</City>
+    <State>VA</State>
+    <ZipCode>23219</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Regenia</FirstName>
+    <LastName>Kannady</LastName>
+    <Line1>45 E Liberty St</Line1>
+    <Line2></Line2>
+    <City>Ridgefield Park</City>
+    <State>NJ</State>
+    <ZipCode>7660</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sheron</FirstName>
+    <LastName>Louissant</LastName>
+    <Line1>2409 Alabama Rd</Line1>
+    <Line2></Line2>
+    <City>Riverside</City>
+    <State>CA</State>
+    <ZipCode>92501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Izetta</FirstName>
+    <LastName>Funnell</LastName>
+    <Line1>9939 N 14th St</Line1>
+    <Line2></Line2>
+    <City>Riverton</City>
+    <State>NJ</State>
+    <ZipCode>8077</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rodolfo</FirstName>
+    <LastName>Butzen</LastName>
+    <Line1>66697 Park Pl #3224</Line1>
+    <Line2></Line2>
+    <City>Riverton</City>
+    <State>WY</State>
+    <ZipCode>82501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Zona</FirstName>
+    <LastName>Colla</LastName>
+    <Line1>9581 E Arapahoe Rd</Line1>
+    <Line2></Line2>
+    <City>Rochester</City>
+    <State>MI</State>
+    <ZipCode>48307</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Serina</FirstName>
+    <LastName>Zagen</LastName>
+    <Line1>7140 University Ave</Line1>
+    <Line2></Line2>
+    <City>Rock Springs</City>
+    <State>WY</State>
+    <ZipCode>82901</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Paz</FirstName>
+    <LastName>Sahagun</LastName>
+    <Line1>798 Lund Farm Way</Line1>
+    <Line2></Line2>
+    <City>Rockaway</City>
+    <State>NJ</State>
+    <ZipCode>7866</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Markus</FirstName>
+    <LastName>Lukasik</LastName>
+    <Line1>394 Manchester Blvd</Line1>
+    <Line2></Line2>
+    <City>Rockford</City>
+    <State>IL</State>
+    <ZipCode>61109</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jaclyn</FirstName>
+    <LastName>Bachman</LastName>
+    <Line1>2140 Diamond Blvd</Line1>
+    <Line2></Line2>
+    <City>Rohnert Park</City>
+    <State>CA</State>
+    <ZipCode>94928</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cyril</FirstName>
+    <LastName>Daufeldt</LastName>
+    <Line1>26849 Jefferson Hwy</Line1>
+    <Line2></Line2>
+    <City>Rolling Meadows</City>
+    <State>IL</State>
+    <ZipCode>60008</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gayla</FirstName>
+    <LastName>Schnitzler</LastName>
+    <Line1>81 Norris Ave #525</Line1>
+    <Line2></Line2>
+    <City>Ronkonkoma</City>
+    <State>NY</State>
+    <ZipCode>11779</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Erick</FirstName>
+    <LastName>Nievas</LastName>
+    <Line1>433 Westminster Blvd #590</Line1>
+    <Line2></Line2>
+    <City>Roseville</City>
+    <State>CA</State>
+    <ZipCode>95661</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jennie</FirstName>
+    <LastName>Drymon</LastName>
+    <Line1>5 Washington St #1</Line1>
+    <Line2></Line2>
+    <City>Roseville</City>
+    <State>CA</State>
+    <ZipCode>95678</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mitsue</FirstName>
+    <LastName>Scipione</LastName>
+    <Line1>17 Us Highway 111</Line1>
+    <Line2></Line2>
+    <City>Round Rock</City>
+    <State>TX</State>
+    <ZipCode>78664</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ciara</FirstName>
+    <LastName>Ventura</LastName>
+    <Line1>3158 Runamuck Pl</Line1>
+    <Line2></Line2>
+    <City>Round Rock</City>
+    <State>TX</State>
+    <ZipCode>78664</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Galen</FirstName>
+    <LastName>Cantres</LastName>
+    <Line1>6916 W Main St</Line1>
+    <Line2></Line2>
+    <City>Sacramento</City>
+    <State>CA</State>
+    <ZipCode>95827</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Truman</FirstName>
+    <LastName>Feichtner</LastName>
+    <Line1>1953 Telegraph Rd</Line1>
+    <Line2></Line2>
+    <City>Saint Joseph</City>
+    <State>MO</State>
+    <ZipCode>64504</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gail</FirstName>
+    <LastName>Kitty</LastName>
+    <Line1>4923 Carey Ave</Line1>
+    <Line2></Line2>
+    <City>Saint Louis</City>
+    <State>MO</State>
+    <ZipCode>63104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dalene</FirstName>
+    <LastName>Schoeneck</LastName>
+    <Line1>369 Latham St #500</Line1>
+    <Line2></Line2>
+    <City>Saint Louis</City>
+    <State>MO</State>
+    <ZipCode>63102</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gertude</FirstName>
+    <LastName>Witten</LastName>
+    <Line1>2023 Greg St</Line1>
+    <Line2></Line2>
+    <City>Saint Paul</City>
+    <State>MN</State>
+    <ZipCode>55101</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lizbeth</FirstName>
+    <LastName>Kohl</LastName>
+    <Line1>9 Church St</Line1>
+    <Line2></Line2>
+    <City>Salem</City>
+    <State>OR</State>
+    <ZipCode>97302</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glenn</FirstName>
+    <LastName>Berray</LastName>
+    <Line1>9648 S Main</Line1>
+    <Line2></Line2>
+    <City>Salisbury</City>
+    <State>MD</State>
+    <ZipCode>21801</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lashandra</FirstName>
+    <LastName>Klang</LastName>
+    <Line1>51120 State Route 18</Line1>
+    <Line2></Line2>
+    <City>Salt Lake City</City>
+    <State>UT</State>
+    <ZipCode>84115</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lenna</FirstName>
+    <LastName>Newville</LastName>
+    <Line1>775 W 17th St</Line1>
+    <Line2></Line2>
+    <City>San Antonio</City>
+    <State>TX</State>
+    <ZipCode>78204</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Laurel</FirstName>
+    <LastName>Pagliuca</LastName>
+    <Line1>85092 Southern Blvd</Line1>
+    <Line2></Line2>
+    <City>San Antonio</City>
+    <State>TX</State>
+    <ZipCode>78204</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mireya</FirstName>
+    <LastName>Frerking</LastName>
+    <Line1>4 S Washington Ave</Line1>
+    <Line2></Line2>
+    <City>San Bernardino</City>
+    <State>CA</State>
+    <ZipCode>92410</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Annelle</FirstName>
+    <LastName>Tagala</LastName>
+    <Line1>30 W 80th St #1995</Line1>
+    <Line2></Line2>
+    <City>San Carlos</City>
+    <State>CA</State>
+    <ZipCode>94070</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dean</FirstName>
+    <LastName>Ketelsen</LastName>
+    <Line1>1 Century Park E</Line1>
+    <Line2></Line2>
+    <City>San Diego</City>
+    <State>CA</State>
+    <ZipCode>92110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Levi</FirstName>
+    <LastName>Munis</LastName>
+    <Line1>469 Outwater Ln</Line1>
+    <Line2></Line2>
+    <City>San Diego</City>
+    <State>CA</State>
+    <ZipCode>92126</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sylvie</FirstName>
+    <LastName>Ryser</LastName>
+    <Line1>701 S Harrison Rd</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sharee</FirstName>
+    <LastName>Maile</LastName>
+    <Line1>3717 Hamann Industrial Pky</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cordelia</FirstName>
+    <LastName>Storment</LastName>
+    <Line1>6 Middlegate Rd #106</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94107</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mollie</FirstName>
+    <LastName>Mcdoniel</LastName>
+    <Line1>39 Moccasin Dr</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Brett</FirstName>
+    <LastName>Mccullan</LastName>
+    <Line1>10276 Brooks St</Line1>
+    <Line2></Line2>
+    <City>San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94105</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Teddy</FirstName>
+    <LastName>Pedrozo</LastName>
+    <Line1>83649 W Belmont Ave</Line1>
+    <Line2></Line2>
+    <City>San Gabriel</City>
+    <State>CA</State>
+    <ZipCode>91776</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tasia</FirstName>
+    <LastName>Andreason</LastName>
+    <Line1>7 W Jackson Blvd</Line1>
+    <Line2></Line2>
+    <City>San Jose</City>
+    <State>CA</State>
+    <ZipCode>95111</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Hubert</FirstName>
+    <LastName>Walthall</LastName>
+    <Line1>6 Greenleaf Ave</Line1>
+    <Line2></Line2>
+    <City>San Jose</City>
+    <State>CA</State>
+    <ZipCode>95111</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Arthur</FirstName>
+    <LastName>Farrow</LastName>
+    <Line1>99385 Charity St #840</Line1>
+    <Line2></Line2>
+    <City>San Jose</City>
+    <State>CA</State>
+    <ZipCode>95110</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vilma</FirstName>
+    <LastName>Berlanga</LastName>
+    <Line1>1128 Delaware St</Line1>
+    <Line2></Line2>
+    <City>San Jose</City>
+    <State>CA</State>
+    <ZipCode>95132</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Billye</FirstName>
+    <LastName>Miro</LastName>
+    <Line1>68556 Central Hwy</Line1>
+    <Line2></Line2>
+    <City>San Leandro</City>
+    <State>CA</State>
+    <ZipCode>94577</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Billye</FirstName>
+    <LastName>Miro</LastName>
+    <Line1>524 Louisiana Ave Nw</Line1>
+    <Line2></Line2>
+    <City>San Leandro</City>
+    <State>CA</State>
+    <ZipCode>94577</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glenna</FirstName>
+    <LastName>Slayton</LastName>
+    <Line1>2 Monroe St</Line1>
+    <Line2></Line2>
+    <City>San Mateo</City>
+    <State>CA</State>
+    <ZipCode>94403</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mitzie</FirstName>
+    <LastName>Hudnall</LastName>
+    <Line1>98 University Dr</Line1>
+    <Line2></Line2>
+    <City>San Ramon</City>
+    <State>CA</State>
+    <ZipCode>94583</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Bernardine</FirstName>
+    <LastName>Rodefer</LastName>
+    <Line1>11360 S Halsted St</Line1>
+    <Line2></Line2>
+    <City>Santa Ana</City>
+    <State>CA</State>
+    <ZipCode>92705</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Staci</FirstName>
+    <LastName>Schmaltz</LastName>
+    <Line1>195 13n N</Line1>
+    <Line2></Line2>
+    <City>Santa Clara</City>
+    <State>CA</State>
+    <ZipCode>95054</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nichelle</FirstName>
+    <LastName>Meteer</LastName>
+    <Line1>985 E 6th Ave</Line1>
+    <Line2></Line2>
+    <City>Santa Rosa</City>
+    <State>CA</State>
+    <ZipCode>95407</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Janine</FirstName>
+    <LastName>Rhoden</LastName>
+    <Line1>251 Park Ave #979</Line1>
+    <Line2></Line2>
+    <City>Saratoga</City>
+    <State>CA</State>
+    <ZipCode>95070</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ettie</FirstName>
+    <LastName>Hoopengardner</LastName>
+    <Line1>77 Massillon Rd #822</Line1>
+    <Line2></Line2>
+    <City>Satellite Beach</City>
+    <State>FL</State>
+    <ZipCode>32937</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Eden</FirstName>
+    <LastName>Jayson</LastName>
+    <Line1>4 58th St #3519</Line1>
+    <Line2></Line2>
+    <City>Scottsdale</City>
+    <State>AZ</State>
+    <ZipCode>85254</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lynelle</FirstName>
+    <LastName>Auber</LastName>
+    <Line1>10759 Main St</Line1>
+    <Line2></Line2>
+    <City>Scottsdale</City>
+    <State>AZ</State>
+    <ZipCode>85260</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Merissa</FirstName>
+    <LastName>Tomblin</LastName>
+    <Line1>63728 Poway Rd #1</Line1>
+    <Line2></Line2>
+    <City>Scranton</City>
+    <State>PA</State>
+    <ZipCode>18509</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Golda</FirstName>
+    <LastName>Kaniecki</LastName>
+    <Line1>67 E Chestnut Hill Rd</Line1>
+    <Line2></Line2>
+    <City>Seattle</City>
+    <State>WA</State>
+    <ZipCode>98133</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Catarina</FirstName>
+    <LastName>Gleich</LastName>
+    <Line1>61556 W 20th Ave</Line1>
+    <Line2></Line2>
+    <City>Seattle</City>
+    <State>WA</State>
+    <ZipCode>98104</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Virgie</FirstName>
+    <LastName>Kiel</LastName>
+    <Line1>636 Commerce Dr #42</Line1>
+    <Line2></Line2>
+    <City>Shakopee</City>
+    <State>MN</State>
+    <ZipCode>55379</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jolene</FirstName>
+    <LastName>Ostolaza</LastName>
+    <Line1>86 Nw 66th St #8673</Line1>
+    <Line2></Line2>
+    <City>Shawnee</City>
+    <State>KS</State>
+    <ZipCode>66218</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Keneth</FirstName>
+    <LastName>Borgman</LastName>
+    <Line1>5 Boston Ave #88</Line1>
+    <Line2></Line2>
+    <City>Sioux Falls</City>
+    <State>SD</State>
+    <ZipCode>57105</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Rikki</FirstName>
+    <LastName>Nayar</LastName>
+    <Line1>749 W 18th St #45</Line1>
+    <Line2></Line2>
+    <City>Smithfield</City>
+    <State>NC</State>
+    <ZipCode>27577</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elke</FirstName>
+    <LastName>Sengbusch</LastName>
+    <Line1>61304 N French Rd</Line1>
+    <Line2></Line2>
+    <City>Somerset</City>
+    <State>NJ</State>
+    <ZipCode>8873</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Hoa</FirstName>
+    <LastName>Sarao</LastName>
+    <Line1>406 Main St</Line1>
+    <Line2></Line2>
+    <City>Somerville</City>
+    <State>NJ</State>
+    <ZipCode>8876</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Trinidad</FirstName>
+    <LastName>Mcrae</LastName>
+    <Line1>55713 Lake City Hwy</Line1>
+    <Line2></Line2>
+    <City>South Bend</City>
+    <State>IN</State>
+    <ZipCode>46601</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Mari</FirstName>
+    <LastName>Lueckenbach</LastName>
+    <Line1>577 Parade St</Line1>
+    <Line2></Line2>
+    <City>South San Francisco</City>
+    <State>CA</State>
+    <ZipCode>94080</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Selma</FirstName>
+    <LastName>Husser</LastName>
+    <Line1>5 Green Pond Rd #4</Line1>
+    <Line2></Line2>
+    <City>Southampton</City>
+    <State>PA</State>
+    <ZipCode>18966</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Antione</FirstName>
+    <LastName>Onofrio</LastName>
+    <Line1>57 Haven Ave #90</Line1>
+    <Line2></Line2>
+    <City>Southfield</City>
+    <State>MI</State>
+    <ZipCode>48075</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Luisa</FirstName>
+    <LastName>Jurney</LastName>
+    <Line1>84 Bloomfield Ave</Line1>
+    <Line2></Line2>
+    <City>Spartanburg</City>
+    <State>SC</State>
+    <ZipCode>29301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Clorinda</FirstName>
+    <LastName>Heimann</LastName>
+    <Line1>44 W 4th St</Line1>
+    <Line2></Line2>
+    <City>Staten Island</City>
+    <State>NY</State>
+    <ZipCode>10309</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Dick</FirstName>
+    <LastName>Wenzinger</LastName>
+    <Line1>89 20th St E #779</Line1>
+    <Line2></Line2>
+    <City>Sterling Heights</City>
+    <State>MI</State>
+    <ZipCode>48310</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ahmed</FirstName>
+    <LastName>Angalich</LastName>
+    <Line1>1 Central Ave</Line1>
+    <Line2></Line2>
+    <City>Stevens Point</City>
+    <State>WI</State>
+    <ZipCode>54481</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Iluminada</FirstName>
+    <LastName>Ohms</LastName>
+    <Line1>3196 S Rider Trl</Line1>
+    <Line2></Line2>
+    <City>Stockton</City>
+    <State>CA</State>
+    <ZipCode>95207</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Joanna</FirstName>
+    <LastName>Leinenbach</LastName>
+    <Line1>944 Gaither Dr</Line1>
+    <Line2></Line2>
+    <City>Strongsville</City>
+    <State>OH</State>
+    <ZipCode>44136</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Caprice</FirstName>
+    <LastName>Suell</LastName>
+    <Line1>62 W Austin St</Line1>
+    <Line2></Line2>
+    <City>Syosset</City>
+    <State>NY</State>
+    <ZipCode>11791</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Stephane</FirstName>
+    <LastName>Myricks</LastName>
+    <Line1>422 E 21st St</Line1>
+    <Line2></Line2>
+    <City>Syracuse</City>
+    <State>NY</State>
+    <ZipCode>13214</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Quentin</FirstName>
+    <LastName>Swayze</LastName>
+    <Line1>37 N Elm St #916</Line1>
+    <Line2></Line2>
+    <City>Tacoma</City>
+    <State>WA</State>
+    <ZipCode>98409</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Annmarie</FirstName>
+    <LastName>Castros</LastName>
+    <Line1>8 Fair Lawn Ave</Line1>
+    <Line2></Line2>
+    <City>Tampa</City>
+    <State>FL</State>
+    <ZipCode>33614</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Shonda</FirstName>
+    <LastName>Greenbush</LastName>
+    <Line1>3211 E Northeast Loop</Line1>
+    <Line2></Line2>
+    <City>Tampa</City>
+    <State>FL</State>
+    <ZipCode>33619</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cecil</FirstName>
+    <LastName>Lapage</LastName>
+    <Line1>1 State Route 27</Line1>
+    <Line2></Line2>
+    <City>Taylor</City>
+    <State>MI</State>
+    <ZipCode>48180</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jeanice</FirstName>
+    <LastName>Claucherty</LastName>
+    <Line1>5 N Cleveland Massillon Rd</Line1>
+    <Line2></Line2>
+    <City>Thousand Oaks</City>
+    <State>CA</State>
+    <ZipCode>91362</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jeanice</FirstName>
+    <LastName>Claucherty</LastName>
+    <Line1>326 E Main St #6496</Line1>
+    <Line2></Line2>
+    <City>Thousand Oaks</City>
+    <State>CA</State>
+    <ZipCode>91362</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Josphine</FirstName>
+    <LastName>Villanueva</LastName>
+    <Line1>62 Monroe St</Line1>
+    <Line2></Line2>
+    <City>Thousand Palms</City>
+    <State>CA</State>
+    <ZipCode>92276</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Daniel</FirstName>
+    <LastName>Perruzza</LastName>
+    <Line1>3 N Groesbeck Hwy</Line1>
+    <Line2></Line2>
+    <City>Toledo</City>
+    <State>OH</State>
+    <ZipCode>43613</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cassi</FirstName>
+    <LastName>Wildfong</LastName>
+    <Line1>7422 Martin Ave #8</Line1>
+    <Line2></Line2>
+    <City>Toledo</City>
+    <State>OH</State>
+    <ZipCode>43607</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Britt</FirstName>
+    <LastName>Galam</LastName>
+    <Line1>6201 S Nevada Ave</Line1>
+    <Line2></Line2>
+    <City>Toms River</City>
+    <State>NJ</State>
+    <ZipCode>8755</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Adell</FirstName>
+    <LastName>Lipkin</LastName>
+    <Line1>7 Flowers Rd #403</Line1>
+    <Line2></Line2>
+    <City>Trenton</City>
+    <State>NJ</State>
+    <ZipCode>8611</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jacqueline</FirstName>
+    <LastName>Rowling</LastName>
+    <Line1>99 5th Ave #33</Line1>
+    <Line2></Line2>
+    <City>Trion</City>
+    <State>GA</State>
+    <ZipCode>30753</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lonny</FirstName>
+    <LastName>Weglarz</LastName>
+    <Line1>9 Norristown Rd</Line1>
+    <Line2></Line2>
+    <City>Troy</City>
+    <State>NY</State>
+    <ZipCode>12180</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Lonna</FirstName>
+    <LastName>Diestel</LastName>
+    <Line1>39 S 7th St</Line1>
+    <Line2></Line2>
+    <City>Tullahoma</City>
+    <State>TN</State>
+    <ZipCode>37388</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cristal</FirstName>
+    <LastName>Samara</LastName>
+    <Line1>2239 Shawnee Mission Pky</Line1>
+    <Line2></Line2>
+    <City>Tullahoma</City>
+    <State>TN</State>
+    <ZipCode>37388</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Kenneth</FirstName>
+    <LastName>Grenet</LastName>
+    <Line1>649 Tulane Ave</Line1>
+    <Line2></Line2>
+    <City>Tulsa</City>
+    <State>OK</State>
+    <ZipCode>74105</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Elli</FirstName>
+    <LastName>Mclaird</LastName>
+    <Line1>4 Stovall St #72</Line1>
+    <Line2></Line2>
+    <City>Union City</City>
+    <State>NJ</State>
+    <ZipCode>7087</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Alline</FirstName>
+    <LastName>Jeanty</LastName>
+    <Line1>6 Sunrise Ave</Line1>
+    <Line2></Line2>
+    <City>Utica</City>
+    <State>NY</State>
+    <ZipCode>13501</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sharika</FirstName>
+    <LastName>Eanes</LastName>
+    <Line1>22 Bridle Ln</Line1>
+    <Line2></Line2>
+    <City>Valley Park</City>
+    <State>MO</State>
+    <ZipCode>63088</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nu</FirstName>
+    <LastName>Mcnease</LastName>
+    <Line1>4 Otis St</Line1>
+    <Line2></Line2>
+    <City>Van Nuys</City>
+    <State>CA</State>
+    <ZipCode>91405</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Daniela</FirstName>
+    <LastName>Comnick</LastName>
+    <Line1>8739 Hudson St</Line1>
+    <Line2></Line2>
+    <City>Vashon</City>
+    <State>WA</State>
+    <ZipCode>98070</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Cecilia</FirstName>
+    <LastName>Colaizzo</LastName>
+    <Line1>88 15th Ave Ne</Line1>
+    <Line2></Line2>
+    <City>Vestal</City>
+    <State>NY</State>
+    <ZipCode>13850</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Leslie</FirstName>
+    <LastName>Threets</LastName>
+    <Line1>840 15th Ave</Line1>
+    <Line2></Line2>
+    <City>Waco</City>
+    <State>TX</State>
+    <ZipCode>76708</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nan</FirstName>
+    <LastName>Koppinger</LastName>
+    <Line1>8927 Vandever Ave</Line1>
+    <Line2></Line2>
+    <City>Waco</City>
+    <State>TX</State>
+    <ZipCode>76707</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Izetta</FirstName>
+    <LastName>Dewar</LastName>
+    <Line1>96263 Greenwood Pl</Line1>
+    <Line2></Line2>
+    <City>Warren</City>
+    <State>ME</State>
+    <ZipCode>4864</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Tegan</FirstName>
+    <LastName>Arceo</LastName>
+    <Line1>9 Front St</Line1>
+    <Line2></Line2>
+    <City>Washington</City>
+    <State>DC</State>
+    <ZipCode>20001</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ruthann</FirstName>
+    <LastName>Keener</LastName>
+    <Line1>40 9th Ave Sw #91</Line1>
+    <Line2></Line2>
+    <City>Waterford</City>
+    <State>MI</State>
+    <ZipCode>48329</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Joni</FirstName>
+    <LastName>Breland</LastName>
+    <Line1>71 San Mateo Ave</Line1>
+    <Line2></Line2>
+    <City>Wayne</City>
+    <State>PA</State>
+    <ZipCode>19087</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Vi</FirstName>
+    <LastName>Rentfro</LastName>
+    <Line1>74989 Brandon St</Line1>
+    <Line2></Line2>
+    <City>Wellsville</City>
+    <State>NY</State>
+    <ZipCode>14895</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Colette</FirstName>
+    <LastName>Kardas</LastName>
+    <Line1>1 Midway Rd</Line1>
+    <Line2></Line2>
+    <City>Westborough</City>
+    <State>MA</State>
+    <ZipCode>1581</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Malcolm</FirstName>
+    <LastName>Tromblay</LastName>
+    <Line1>4545 Courthouse Rd</Line1>
+    <Line2></Line2>
+    <City>Westbury</City>
+    <State>NY</State>
+    <ZipCode>11590</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Ryan</FirstName>
+    <LastName>Harnos</LastName>
+    <Line1>44 58th St</Line1>
+    <Line2></Line2>
+    <City>Wheeling</City>
+    <State>IL</State>
+    <ZipCode>60090</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Jess</FirstName>
+    <LastName>Chaffins</LastName>
+    <Line1>65 Mountain View Dr</Line1>
+    <Line2></Line2>
+    <City>Whippany</City>
+    <State>NJ</State>
+    <ZipCode>7981</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Sharen</FirstName>
+    <LastName>Bourbon</LastName>
+    <Line1>6535 Joyce St</Line1>
+    <Line2></Line2>
+    <City>Wichita Falls</City>
+    <State>TX</State>
+    <ZipCode>76301</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Nickolas</FirstName>
+    <LastName>Juvera</LastName>
+    <Line1>5 Little River Tpke</Line1>
+    <Line2></Line2>
+    <City>Wilmington</City>
+    <State>MA</State>
+    <ZipCode>1887</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gary</FirstName>
+    <LastName>Nunlee</LastName>
+    <Line1>3 Aspen St</Line1>
+    <Line2></Line2>
+    <City>Worcester</City>
+    <State>MA</State>
+    <ZipCode>1602</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Gary</FirstName>
+    <LastName>Nunlee</LastName>
+    <Line1>57254 Brickell Ave #372</Line1>
+    <Line2></Line2>
+    <City>Worcester</City>
+    <State>MA</State>
+    <ZipCode>1602</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Diane</FirstName>
+    <LastName>Devreese</LastName>
+    <Line1>2094 Ne 36th Ave</Line1>
+    <Line2></Line2>
+    <City>Worcester</City>
+    <State>MA</State>
+    <ZipCode>1603</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Roslyn</FirstName>
+    <LastName>Chavous</LastName>
+    <Line1>7667 S Hulen St #42</Line1>
+    <Line2></Line2>
+    <City>Yonkers</City>
+    <State>NY</State>
+    <ZipCode>10701</ZipCode>
+  </Customer>
+  <Customer>
+    <FirstName>Glory</FirstName>
+    <LastName>Schieler</LastName>
+    <Line1>8573 Lincoln Blvd</Line1>
+    <Line2></Line2>
+    <City>York</City>
+    <State>PA</State>
+    <ZipCode>17404</ZipCode>
+  </Customer>
+</Customers>

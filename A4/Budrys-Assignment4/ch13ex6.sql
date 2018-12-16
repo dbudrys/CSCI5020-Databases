@@ -1,0 +1,4 @@
+SET ROWCOUNT 5
+SELECT  *
+FROM ProductSummary
+ORDER BY TotalSale DESC

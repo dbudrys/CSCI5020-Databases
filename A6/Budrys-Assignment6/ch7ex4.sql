@@ -1,0 +1,3 @@
+DELETE FROM INVOICES
+WHERE invoice_id = 115;
+

@@ -1,0 +1,1543 @@
+﻿<xsd:schema targetNamespace="CustomerAddresses" xmlns:schema="CustomerAddresses" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sqltypes="http://schemas.microsoft.com/sqlserver/2004/sqltypes" elementFormDefault="qualified">
+  <xsd:import namespace="http://schemas.microsoft.com/sqlserver/2004/sqltypes" schemaLocation="http://schemas.microsoft.com/sqlserver/2004/sqltypes/sqltypes.xsd" />
+  <xsd:element name="C">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="schema:A" minOccurs="0" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="FirstName" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="60" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+      <xsd:attribute name="LastName" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="60" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="A">
+    <xsd:complexType>
+      <xsd:attribute name="Line1" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="60" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+      <xsd:attribute name="Line2">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="60" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+      <xsd:attribute name="City" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="40" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+      <xsd:attribute name="State" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="2" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+      <xsd:attribute name="ZipCode" use="required">
+        <xsd:simpleType>
+          <xsd:restriction base="sqltypes:varchar" sqltypes:localeId="1033" sqltypes:sqlCompareOptions="IgnoreCase IgnoreKanaType IgnoreWidth" sqltypes:sqlSortId="52">
+            <xsd:maxLength value="10" />
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+<C xmlns="CustomerAddresses" FirstName="Allan" LastName="Sherwood">
+  <A Line1="100 East Ridgewood Ave." Line2="" City="Paramus" State="NJ" ZipCode="07652" />
+  <A Line1="21 Rosewood Rd." Line2="" City="Woodcliff Lake" State="NJ" ZipCode="07677" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Barry" LastName="Zimmer">
+  <A Line1="16285 Wendell St." Line2="" City="Omaha" State="NE" ZipCode="68135" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Christine" LastName="Brown">
+  <A Line1="19270 NW Cornell Rd." Line2="" City="Beaverton" State="OR" ZipCode="97006" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="David" LastName="Goldstein">
+  <A Line1="186 Vermont St." Line2="Apt. 2" City="San Francisco" State="CA" ZipCode="94110" />
+  <A Line1="1374 46th Ave." Line2="" City="San Francisco" State="CA" ZipCode="94129" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Erin" LastName="Valentino">
+  <A Line1="6982 Palm Ave." Line2="" City="Fresno" State="CA" ZipCode="93711" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Frank Lee" LastName="Wilson">
+  <A Line1="23 Mountain View St." Line2="" City="Denver" State="CO" ZipCode="80208" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gary" LastName="Hernandez">
+  <A Line1="7361 N. 41st St." Line2="Apt. B" City="New York" State="NY" ZipCode="10012" />
+  <A Line1="3829 Broadway Ave." Line2="Suite 2" City="New York" State="NY" ZipCode="10012" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Heather" LastName="Esway">
+  <A Line1="2381 Buena Vista St." Line2="" City="Los Angeles" State="CA" ZipCode="90023" />
+  <A Line1="291 W. Hollywood Blvd." Line2="" City="Los Angeles" State="CA" ZipCode="90024" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="James" LastName="Butt">
+  <A Line1="96950 Hidden Ln" Line2="" City="Aberdeen" State="MD" ZipCode="21001" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Josephine" LastName="Darakjy">
+  <A Line1="6980 Dorsett Rd" Line2="" City="Abilene" State="KS" ZipCode="67410" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Art" LastName="Venere">
+  <A Line1="33 State St" Line2="" City="Abilene" State="TX" ZipCode="79601" />
+  <A Line1="5 E Truman Rd" Line2="" City="Abilene" State="TX" ZipCode="79602" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lenna" LastName="Paprocki">
+  <A Line1="8284 Hart St" Line2="" City="Abilene" State="KS" ZipCode="67410" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Donette" LastName="Foller">
+  <A Line1="9387 Charcot Ave" Line2="" City="Absecon" State="NJ" ZipCode="8201" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Simona" LastName="Morasca">
+  <A Line1="3777 E Richmond St #900" Line2="" City="Akron" State="OH" ZipCode="44302" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mitsue" LastName="Tollner">
+  <A Line1="74 S Westgate St" Line2="" City="Albany" State="NY" ZipCode="12204" />
+  <A Line1="9390 S Howell Ave" Line2="" City="Albany" State="GA" ZipCode="31701" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leota" LastName="Dilliard">
+  <A Line1="89992 E 15th St" Line2="" City="Alliance" State="NE" ZipCode="69301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sage" LastName="Wieser">
+  <A Line1="812 S Haven St" Line2="" City="Amarillo" State="TX" ZipCode="79109" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kris" LastName="Marrier">
+  <A Line1="72119 S Walker Ave #63" Line2="" City="Anaheim" State="CA" ZipCode="92801" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Minna" LastName="Amigon">
+  <A Line1="639 Main St" Line2="" City="Anchorage" State="AK" ZipCode="99501" />
+  <A Line1="18 Fountain St" Line2="" City="Anchorage" State="AK" ZipCode="99515" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Abel" LastName="Maclead">
+  <A Line1="1747 Calle Amanecer #2" Line2="" City="Anchorage" State="AK" ZipCode="99501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kiley" LastName="Caldarera">
+  <A Line1="735 Crawford Dr" Line2="" City="Anchorage" State="AK" ZipCode="99501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Graciela" LastName="Ruta">
+  <A Line1="560 Civic Center Dr" Line2="" City="Ann Arbor" State="MI" ZipCode="48103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cammy" LastName="Albares">
+  <A Line1="747 Leonis Blvd" Line2="" City="Annandale" State="VA" ZipCode="22003" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mattie" LastName="Poquette">
+  <A Line1="70099 E North Ave" Line2="" City="Arlington" State="TX" ZipCode="76013" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Meaghan" LastName="Garufi">
+  <A Line1="73 W Barstow Ave" Line2="" City="Arlington Heights" State="IL" ZipCode="60004" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gladys" LastName="Rim">
+  <A Line1="3 Mcauley Dr" Line2="" City="Ashland" State="OH" ZipCode="44805" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Yuki" LastName="Whobrey">
+  <A Line1="6 S 33rd St" Line2="" City="Aston" State="PA" ZipCode="19014" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fletcher" LastName="Flosi">
+  <A Line1="92 Broadway" Line2="" City="Astoria" State="NY" ZipCode="11103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bette" LastName="Nicka">
+  <A Line1="45 2nd Ave #9759" Line2="" City="Atlanta" State="GA" ZipCode="30328" />
+  <A Line1="26 Montgomery St" Line2="" City="Atlanta" State="GA" ZipCode="30328" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Veronika" LastName="Inouye">
+  <A Line1="187 Market St" Line2="" City="Atlanta" State="GA" ZipCode="30342" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Willard" LastName="Kolmetz">
+  <A Line1="82 Winsor St #54" Line2="" City="Atlanta" State="GA" ZipCode="30340" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Maryann" LastName="Royster">
+  <A Line1="92 Main St" Line2="" City="Atlantic City" State="NJ" ZipCode="8401" />
+  <A Line1="506 S Hacienda Dr" Line2="" City="Atlantic City" State="NJ" ZipCode="8401" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alisha" LastName="Slusarski">
+  <A Line1="59 N Groesbeck Hwy" Line2="" City="Austin" State="TX" ZipCode="78731" />
+  <A Line1="2026 N Plankinton Ave #3" Line2="" City="Austin" State="TX" ZipCode="78754" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Allene" LastName="Iturbide">
+  <A Line1="3125 Packer Ave #9851" Line2="" City="Austin" State="TX" ZipCode="78753" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Chanel" LastName="Caudy">
+  <A Line1="228 Runamuck Pl #2808" Line2="" City="Baltimore" State="MD" ZipCode="21224" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ezekiel" LastName="Chui">
+  <A Line1="6 Kains Ave" Line2="" City="Baltimore" State="MD" ZipCode="21215" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Willow" LastName="Kusko">
+  <A Line1="2 S Biscayne Blvd" Line2="" City="Baltimore" State="MD" ZipCode="21230" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bernardo" LastName="Figeroa">
+  <A Line1="4 Iwaena St" Line2="" City="Baltimore" State="MD" ZipCode="21202" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ammie" LastName="Corrio">
+  <A Line1="2 W Scyene Rd #3" Line2="" City="Baltimore" State="MD" ZipCode="21217" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Francine" LastName="Vocelka">
+  <A Line1="37855 Nolan Rd" Line2="" City="Bangor" State="ME" ZipCode="4401" />
+  <A Line1="34 Saint George Ave #2" Line2="" City="Bangor" State="ME" ZipCode="4401" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ernie" LastName="Stenseth">
+  <A Line1="95 Main Ave #2" Line2="" City="Barberton" State="OH" ZipCode="44203" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Albina" LastName="Glick">
+  <A Line1="70 W Main St" Line2="" City="Beachwood" State="OH" ZipCode="44122" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alishia" LastName="Sergi">
+  <A Line1="3 Elmwood Dr" Line2="" City="Beaverton" State="OR" ZipCode="97005" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Solange" LastName="Shinko">
+  <A Line1="34 Raritan Center Pky" Line2="" City="Bellflower" State="CA" ZipCode="90706" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jose" LastName="Stockham">
+  <A Line1="64 Lakeview Ave" Line2="" City="Beloit" State="WI" ZipCode="53511" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rozella" LastName="Ostrosky">
+  <A Line1="2887 Knowlton St #5435" Line2="" City="Berkeley" State="CA" ZipCode="94710" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Valentine" LastName="Gillian">
+  <A Line1="429 Tiger Ln" Line2="" City="Beverly Hills" State="CA" ZipCode="90212" />
+  <A Line1="598 43rd St" Line2="" City="Beverly Hills" State="CA" ZipCode="90210" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kati" LastName="Rulapaugh">
+  <A Line1="5 Elmwood Park Blvd" Line2="" City="Biloxi" State="MS" ZipCode="39530" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Youlanda" LastName="Schemmer">
+  <A Line1="9506 Edgemore Ave" Line2="" City="Bladensburg" State="MD" ZipCode="20710" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dyan" LastName="Oldroyd">
+  <A Line1="539 Coldwater Canyon Ave" Line2="" City="Bloomfield" State="NJ" ZipCode="7003" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Roxane" LastName="Campain">
+  <A Line1="772 W River Dr" Line2="" City="Bloomington" State="IN" ZipCode="47404" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lavera" LastName="Perin">
+  <A Line1="70 Euclid Ave #722" Line2="" City="Bohemia" State="NY" ZipCode="11716" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Erick" LastName="Ferencz">
+  <A Line1="74 W College St" Line2="" City="Boise" State="ID" ZipCode="83707" />
+  <A Line1="9635 S Main St" Line2="" City="Boise" State="ID" ZipCode="83704" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fatima" LastName="Saylors">
+  <A Line1="67 Rv Cent" Line2="" City="Boise" State="ID" ZipCode="83709" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jina" LastName="Briddick">
+  <A Line1="38938 Park Blvd" Line2="" City="Boston" State="MA" ZipCode="2128" />
+  <A Line1="8 County Center Dr #647" Line2="" City="Boston" State="MA" ZipCode="2210" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kanisha" LastName="Waycott">
+  <A Line1="5 S Colorado Blvd #449" Line2="" City="Bothell" State="WA" ZipCode="98021" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Emerson" LastName="Bowley">
+  <A Line1="4 Webbs Chapel Rd" Line2="" City="Boulder" State="CO" ZipCode="80303" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Blair" LastName="Malet">
+  <A Line1="8590 Lake Lizzie Dr" Line2="" City="Bowling Green" State="OH" ZipCode="43402" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Brock" LastName="Bolognia">
+  <A Line1="70295 Pioneer Ct" Line2="" City="Brandon" State="FL" ZipCode="33511" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lorrie" LastName="Nestle">
+  <A Line1="8 W Cerritos Ave #54" Line2="" City="Bridgeport" State="NJ" ZipCode="8014" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sabra" LastName="Uyetake">
+  <A Line1="46314 Route 130" Line2="" City="Bridgeport" State="CT" ZipCode="6610" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Marjory" LastName="Mastella">
+  <A Line1="50 E Wacker Dr" Line2="" City="Bridgewater" State="NJ" ZipCode="8807" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Karl" LastName="Klonowski">
+  <A Line1="3732 Sherman Ave" Line2="" City="Bridgewater" State="NJ" ZipCode="8807" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tonette" LastName="Wenner">
+  <A Line1="4 B Blue Ridge Blvd" Line2="" City="Brighton" State="MI" ZipCode="48116" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Amber" LastName="Monarrez">
+  <A Line1="6 Gilson St" Line2="" City="Bronx" State="NY" ZipCode="10468" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Shenika" LastName="Seewald">
+  <A Line1="617 Nw 36th Ave" Line2="" City="Brook Park" State="OH" ZipCode="44142" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Delmy" LastName="Ahle">
+  <A Line1="25657 Live Oak St" Line2="" City="Brooklyn" State="NY" ZipCode="11226" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Deeanna" LastName="Juhas">
+  <A Line1="4 Kohler Memorial Dr" Line2="" City="Brooklyn" State="NY" ZipCode="11230" />
+  <A Line1="64 Newman Springs Rd E" Line2="" City="Brooklyn" State="NY" ZipCode="11219" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Blondell" LastName="Pugh">
+  <A Line1="61047 Mayfield Ave" Line2="" City="Brooklyn" State="NY" ZipCode="11223" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jamal" LastName="Vanausdal">
+  <A Line1="49 N Mays St" Line2="" City="Broussard" State="LA" ZipCode="70518" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cecily" LastName="Hollack">
+  <A Line1="8116 Mount Vernon Ave" Line2="" City="Bucyrus" State="OH" ZipCode="44820" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carmelina" LastName="Lindall">
+  <A Line1="42754 S Ash Ave" Line2="" City="Buffalo" State="NY" ZipCode="14228" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Maurine" LastName="Yglesias">
+  <A Line1="4800 Black Horse Pike" Line2="" City="Burlingame" State="CA" ZipCode="94010" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tawna" LastName="Buvens">
+  <A Line1="33 Lewis Rd #46" Line2="" City="Burlington" State="NC" ZipCode="27215" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Penney" LastName="Weight">
+  <A Line1="9 Tower Ave" Line2="" City="Burlington" State="KY" ZipCode="41005" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elly" LastName="Morocco">
+  <A Line1="170 Wyoming Ave" Line2="" City="Burnsville" State="MN" ZipCode="55337" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ilene" LastName="Eroman">
+  <A Line1="7061 N 2nd St" Line2="" City="Burnsville" State="MN" ZipCode="55337" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Vallie" LastName="Mondella">
+  <A Line1="3829 Ventura Blvd" Line2="" City="Butte" State="MT" ZipCode="59701" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kallie" LastName="Blackwood">
+  <A Line1="17 Morena Blvd" Line2="" City="Camarillo" State="CA" ZipCode="93012" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Johnetta" LastName="Abdallah">
+  <A Line1="25 Se 176th Pl" Line2="" City="Cambridge" State="MA" ZipCode="2138" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bobbye" LastName="Rhym">
+  <A Line1="1 Garfield Ave #7" Line2="" City="Canton" State="OH" ZipCode="44707" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Micaela" LastName="Rhymes">
+  <A Line1="94 W Dodge Rd" Line2="" City="Carson City" State="NV" ZipCode="89701" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tamar" LastName="Hoogland">
+  <A Line1="13252 Lighthouse Ave" Line2="" City="Cathedral City" State="CA" ZipCode="92234" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Moon" LastName="Parlato">
+  <A Line1="6 S Broadway St" Line2="" City="Cedar Grove" State="NJ" ZipCode="7009" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Laurel" LastName="Reitler">
+  <A Line1="98 Connecticut Ave Nw" Line2="" City="Chagrin Falls" State="OH" ZipCode="44023" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Delisa" LastName="Crupi">
+  <A Line1="1088 Pinehurst St" Line2="" City="Chapel Hill" State="NC" ZipCode="27514" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Viva" LastName="Toelkes">
+  <A Line1="501 N 19th Ave" Line2="" City="Cherry Hill" State="NJ" ZipCode="8002" />
+  <A Line1="43496 Commercial Dr #29" Line2="" City="Cherry Hill" State="NJ" ZipCode="8003" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elza" LastName="Lipke">
+  <A Line1="38773 Gravois Ave" Line2="" City="Cheyenne" State="WY" ZipCode="82001" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Devorah" LastName="Chickering">
+  <A Line1="7 Eads St" Line2="" City="Chicago" State="IL" ZipCode="60632" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Timothy" LastName="Mulqueen">
+  <A Line1="4284 Dorigo Ln" Line2="" City="Chicago" State="IL" ZipCode="60647" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Arlette" LastName="Honeywell">
+  <A Line1="4 Warehouse Point Rd #7" Line2="" City="Chicago" State="IL" ZipCode="60638" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dominque" LastName="Dickerson">
+  <A Line1="137 Pioneer Way" Line2="" City="Chicago" State="IL" ZipCode="60604" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lettie" LastName="Isenhower">
+  <A Line1="9 Murfreesboro Rd" Line2="" City="Chicago" State="IL" ZipCode="60623" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Myra" LastName="Munns">
+  <A Line1="45 E Acacia Ct" Line2="" City="Chicago" State="IL" ZipCode="60624" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Stephaine" LastName="Barfield">
+  <A Line1="72 Beechwood Ter" Line2="" City="Chicago" State="IL" ZipCode="60657" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lai" LastName="Gato">
+  <A Line1="72 Mannix Dr" Line2="" City="Cincinnati" State="OH" ZipCode="45203" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Stephen" LastName="Emigh">
+  <A Line1="868 State St #38" Line2="" City="Cincinnati" State="OH" ZipCode="45251" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tyra" LastName="Shields">
+  <A Line1="7 Tarrytown Rd" Line2="" City="Cincinnati" State="OH" ZipCode="45217" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tammara" LastName="Wardrip">
+  <A Line1="83 County Road 437 #8581" Line2="" City="Clarks Summit" State="PA" ZipCode="18411" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cory" LastName="Gibes">
+  <A Line1="2845 Boulder Crescent St" Line2="" City="Cleveland" State="OH" ZipCode="44103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Danica" LastName="Bruschke">
+  <A Line1="80 Pittsford Victor Rd #9" Line2="" City="Cleveland" State="OH" ZipCode="44103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Wilda" LastName="Giguere">
+  <A Line1="82 Us Highway 46" Line2="" City="Clifton" State="NJ" ZipCode="7011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elvera" LastName="Benimadho">
+  <A Line1="47857 Coney Island Ave" Line2="" City="Clinton" State="MD" ZipCode="20735" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carma" LastName="Vanheusen">
+  <A Line1="31 Douglas Blvd #950" Line2="" City="Clovis" State="NM" ZipCode="88101" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Malinda" LastName="Hochard">
+  <A Line1="383 Gunderman Rd #197" Line2="" City="Coatesville" State="PA" ZipCode="19320" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Natalie" LastName="Fern">
+  <A Line1="8597 W National Ave" Line2="" City="Cocoa" State="FL" ZipCode="32922" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lisha" LastName="Centini">
+  <A Line1="9 Vanowen St" Line2="" City="College Station" State="TX" ZipCode="77840" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Arlene" LastName="Klusman">
+  <A Line1="8 Us Highway 22" Line2="" City="Colorado Springs" State="CO" ZipCode="80937" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alease" LastName="Buemi">
+  <A Line1="721 Interstate 45 S" Line2="" City="Colorado Springs" State="CO" ZipCode="80919" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Louisa" LastName="Cronauer">
+  <A Line1="98839 Hawthorne Blvd #6101" Line2="" City="Columbia" State="SC" ZipCode="29201" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Angella" LastName="Cetta">
+  <A Line1="6882 Torresdale Ave" Line2="" City="Columbia" State="SC" ZipCode="29201" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cyndy" LastName="Goldammer">
+  <A Line1="74874 Atlantic Ave" Line2="" City="Columbus" State="OH" ZipCode="43215" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rosio" LastName="Cork">
+  <A Line1="20932 Hedley St" Line2="" City="Concord" State="CA" ZipCode="94520" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Celeste" LastName="Korando">
+  <A Line1="523 Marquette Ave" Line2="" City="Concord" State="MA" ZipCode="1742" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Twana" LastName="Felger">
+  <A Line1="386 9th Ave N" Line2="" City="Conroe" State="TX" ZipCode="77301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Estrella" LastName="Samu">
+  <A Line1="77132 Coon Rapids Blvd Nw" Line2="" City="Conroe" State="TX" ZipCode="77301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Donte" LastName="Kines">
+  <A Line1="80312 W 32nd St" Line2="" City="Conroe" State="TX" ZipCode="77301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tiffiny" LastName="Steffensmeier">
+  <A Line1="8728 S Broad St" Line2="" City="Coram" State="NY" ZipCode="11727" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Edna" LastName="Miceli">
+  <A Line1="26659 N 13th St" Line2="" City="Costa Mesa" State="CA" ZipCode="92626" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sue" LastName="Kownacki">
+  <A Line1="189 Village Park Rd" Line2="" City="Crestview" State="FL" ZipCode="32536" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jesusa" LastName="Shin">
+  <A Line1="177 S Rider Trl #52" Line2="" City="Crystal River" State="FL" ZipCode="34429" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rolland" LastName="Francescon">
+  <A Line1="627 Walford Ave" Line2="" City="Dallas" State="TX" ZipCode="75227" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Pamella" LastName="Schmierer">
+  <A Line1="99586 Main St" Line2="" City="Dallas" State="TX" ZipCode="75207" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glory" LastName="Kulzer">
+  <A Line1="75684 S Withlapopka Dr #32" Line2="" City="Dallas" State="TX" ZipCode="75227" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Shawna" LastName="Palaspas">
+  <A Line1="8 S Haven St" Line2="" City="Daytona Beach" State="FL" ZipCode="32114" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Brandon" LastName="Callaro">
+  <A Line1="7116 Western Ave" Line2="" City="Dearborn" State="MI" ZipCode="48126" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Scarlet" LastName="Cartan">
+  <A Line1="3270 Dequindre Rd" Line2="" City="Deer Park" State="NY" ZipCode="11729" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Oretha" LastName="Menter">
+  <A Line1="866 34th Ave" Line2="" City="Denver" State="CO" ZipCode="80231" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ty" LastName="Smith">
+  <A Line1="669 Packerland Dr #1438" Line2="" City="Denver" State="CO" ZipCode="80212" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Xuan" LastName="Rochin">
+  <A Line1="7563 Cornwall Rd #4462" Line2="" City="Denver" State="PA" ZipCode="17517" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lindsey" LastName="Dilello">
+  <A Line1="76598 Rd  I 95 #1" Line2="" City="Denver" State="CO" ZipCode="80216" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Devora" LastName="Perez">
+  <A Line1="78 Maryland Dr #146" Line2="" City="Denville" State="NJ" ZipCode="7834" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Herman" LastName="Demesa">
+  <A Line1="29 Cherry St #7073" Line2="" City="Des Moines" State="IA" ZipCode="50315" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rory" LastName="Papasergi">
+  <A Line1="5384 Southwyck Blvd" Line2="" City="Douglasville" State="GA" ZipCode="30135" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Talia" LastName="Riopelle">
+  <A Line1="4 Ralph Ct" Line2="" City="Dunellen" State="NJ" ZipCode="8812" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Van" LastName="Shire">
+  <A Line1="2167 Sierra Rd" Line2="" City="East Lansing" State="MI" ZipCode="48823" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lucina" LastName="Lary">
+  <A Line1="2 Cedar Ave #84" Line2="" City="Easton" State="MD" ZipCode="21601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bok" LastName="Isaacs">
+  <A Line1="9 N 14th St" Line2="" City="El Cajon" State="CA" ZipCode="92020" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rolande" LastName="Spickerman">
+  <A Line1="395 S 6th St #2" Line2="" City="El Cajon" State="CA" ZipCode="92020" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Howard" LastName="Paulas">
+  <A Line1="87 Sierra Rd" Line2="" City="El Monte" State="CA" ZipCode="91731" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kimbery" LastName="Madarang">
+  <A Line1="92899 Kalakaua Ave" Line2="" City="El Paso" State="TX" ZipCode="79925" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Thurman" LastName="Manno">
+  <A Line1="35 E Main St #43" Line2="" City="Elk Grove Village" State="IL" ZipCode="60007" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Becky" LastName="Mirafuentes">
+  <A Line1="2 Sw Nyberg Rd" Line2="" City="Elkhart" State="IN" ZipCode="46514" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Beatriz" LastName="Corrington">
+  <A Line1="28 S 7th St #2824" Line2="" City="Englewood" State="NJ" ZipCode="7631" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Marti" LastName="Maybury">
+  <A Line1="17 Jersey Ave" Line2="" City="Englewood" State="CO" ZipCode="80110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nieves" LastName="Gotter">
+  <A Line1="7 W 32nd St" Line2="" City="Erie" State="PA" ZipCode="16502" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leatha" LastName="Hagele">
+  <A Line1="555 Main St" Line2="" City="Erie" State="PA" ZipCode="16502" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Valentin" LastName="Klimek">
+  <A Line1="1 N San Saba" Line2="" City="Erie" State="PA" ZipCode="16501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Melissa" LastName="Wiklund">
+  <A Line1="3989 Portage Tr" Line2="" City="Escondido" State="CA" ZipCode="92025" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sheridan" LastName="Zane">
+  <A Line1="105 Richmond Valley Rd" Line2="" City="Escondido" State="CA" ZipCode="92025" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bulah" LastName="Padilla">
+  <A Line1="12270 Caton Center Dr" Line2="" City="Eugene" State="OR" ZipCode="97401" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Audra" LastName="Kohnert">
+  <A Line1="461 Prospect Pl #316" Line2="" City="Euless" State="TX" ZipCode="76040" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Daren" LastName="Weirather">
+  <A Line1="37 Alabama Ave" Line2="" City="Evanston" State="IL" ZipCode="60201" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fernanda" LastName="Jillson">
+  <A Line1="1048 Main St" Line2="" City="Fairbanks" State="AK" ZipCode="99708" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gearldine" LastName="Gellinger">
+  <A Line1="20 S Babcock St" Line2="" City="Fairbanks" State="AK" ZipCode="99712" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Chau" LastName="Kitzman">
+  <A Line1="48 Lenox St" Line2="" City="Fairfax" State="VA" ZipCode="22030" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Theola" LastName="Frey">
+  <A Line1="9 Waydell St" Line2="" City="Fairfield" State="NJ" ZipCode="7004" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cheryl" LastName="Haroldson">
+  <A Line1="87 Imperial Ct #79" Line2="" City="Fargo" State="ND" ZipCode="58102" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Laticia" LastName="Merced">
+  <A Line1="1482 College Ave" Line2="" City="Fayetteville" State="NC" ZipCode="28301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carissa" LastName="Batman">
+  <A Line1="61 13 Stoneridge #835" Line2="" City="Findlay" State="OH" ZipCode="45840" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lezlie" LastName="Craghead">
+  <A Line1="76 Brooks St #9" Line2="" City="Flemington" State="NJ" ZipCode="8822" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ozell" LastName="Shealy">
+  <A Line1="7 S Beverly Dr" Line2="" City="Fort Wayne" State="IN" ZipCode="46802" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Arminda" LastName="Parvis">
+  <A Line1="2 S 15th St" Line2="" City="Fort Worth" State="TX" ZipCode="76107" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Reita" LastName="Leto">
+  <A Line1="2 W Mount Royal Ave" Line2="" City="Fortville" State="IN" ZipCode="46040" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Yolando" LastName="Luczki">
+  <A Line1="7163 W Clark Rd" Line2="" City="Freehold" State="NJ" ZipCode="7728" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lizette" LastName="Stem">
+  <A Line1="455 N Main Ave" Line2="" City="Garden City" State="NY" ZipCode="11530" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gregoria" LastName="Pawlowicz">
+  <A Line1="16452 Greenwich St" Line2="" City="Garden City" State="NY" ZipCode="11530" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carin" LastName="Deleo">
+  <A Line1="47154 Whipple Ave Nw" Line2="" City="Gardena" State="CA" ZipCode="90247" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Chantell" LastName="Maynerich">
+  <A Line1="47939 Porter Ave" Line2="" City="Gardena" State="CA" ZipCode="90248" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dierdre" LastName="Yum">
+  <A Line1="2972 Lafayette Ave" Line2="" City="Gardena" State="CA" ZipCode="90248" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Larae" LastName="Gudroe">
+  <A Line1="35433 Blake St #588" Line2="" City="Gardena" State="CA" ZipCode="90248" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Latrice" LastName="Tolfree">
+  <A Line1="22 Spruce St #595" Line2="" City="Gardena" State="CA" ZipCode="90248" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kerry" LastName="Theodorov">
+  <A Line1="2853 S Central Expy" Line2="" City="Glen Burnie" State="MD" ZipCode="21061" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dorthy" LastName="Hidvegi">
+  <A Line1="79 S Howell Ave" Line2="" City="Grand Rapids" State="MI" ZipCode="49546" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fannie" LastName="Lungren">
+  <A Line1="33 N Michigan Ave" Line2="" City="Green Bay" State="WI" ZipCode="54301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Evangelina" LastName="Radde">
+  <A Line1="9 Plainsboro Rd #598" Line2="" City="Greensboro" State="NC" ZipCode="27409" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Novella" LastName="Degroot">
+  <A Line1="88827 Frankford Ave" Line2="" City="Greensboro" State="NC" ZipCode="27401" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Clay" LastName="Hoa">
+  <A Line1="4646 Kaahumanu St" Line2="" City="Hackensack" State="NJ" ZipCode="7601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jennifer" LastName="Fallick">
+  <A Line1="34 Center St" Line2="" City="Hamilton" State="OH" ZipCode="45011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Irma" LastName="Wolfgramm">
+  <A Line1="287 Youngstown Warren Rd" Line2="" City="Hampstead" State="MD" ZipCode="21074" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Eun" LastName="Coody">
+  <A Line1="3387 Ryan Dr" Line2="" City="Hanover" State="MD" ZipCode="21076" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sylvia" LastName="Cousey">
+  <A Line1="2 W Beverly Blvd" Line2="" City="Harrisburg" State="PA" ZipCode="17110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nana" LastName="Wrinkles">
+  <A Line1="88 Sw 28th Ter" Line2="" City="Harrison" State="NJ" ZipCode="7029" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Layla" LastName="Springe">
+  <A Line1="2500 Pringle Rd Se #508" Line2="" City="Hatfield" State="PA" ZipCode="19440" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Joesph" LastName="Degonia">
+  <A Line1="8100 Jacksonville Rd #7" Line2="" City="Hays" State="KS" ZipCode="67601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Annabelle" LastName="Boord">
+  <A Line1="69 Marquette Ave" Line2="" City="Hayward" State="CA" ZipCode="94545" />
+  <A Line1="38 Pleasant Hill Rd" Line2="" City="Hayward" State="CA" ZipCode="94545" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Stephaine" LastName="Vinning">
+  <A Line1="2184 Worth St" Line2="" City="Hayward" State="CA" ZipCode="94545" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nelida" LastName="Sawchuk">
+  <A Line1="99 Tank Farm Rd" Line2="" City="Hazleton" State="PA" ZipCode="18201" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Marguerita" LastName="Hiatt">
+  <A Line1="60 Old Dover Rd" Line2="" City="Hialeah" State="FL" ZipCode="33014" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carmela" LastName="Cookey">
+  <A Line1="2 Flynn Rd" Line2="" City="Hicksville" State="NY" ZipCode="11801" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Junita" LastName="Brideau">
+  <A Line1="4 10th St W" Line2="" City="High Point" State="NC" ZipCode="27263" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Claribel" LastName="Varriano">
+  <A Line1="18 Waterloo Geneva Rd" Line2="" City="Highland Park" State="IL" ZipCode="60035" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Benton" LastName="Skursky">
+  <A Line1="303 N Radcliffe St" Line2="" City="Hilo" State="HI" ZipCode="96720" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Hillary" LastName="Skulski">
+  <A Line1="5161 Dorsett Rd" Line2="" City="Homestead" State="FL" ZipCode="33030" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Merilyn" LastName="Bayless">
+  <A Line1="9 Wales Rd Ne #914" Line2="" City="Homosassa" State="FL" ZipCode="34448" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Teri" LastName="Ennaco">
+  <A Line1="185 Blackstone Bldge" Line2="" City="Honolulu" State="HI" ZipCode="96817" />
+  <A Line1="7 Benton Dr" Line2="" City="Honolulu" State="HI" ZipCode="96819" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Merlyn" LastName="Lawler">
+  <A Line1="2 Lighthouse Ave" Line2="" City="Hopkins" State="MN" ZipCode="55343" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Georgene" LastName="Montezuma">
+  <A Line1="6651 Municipal Rd" Line2="" City="Houma" State="LA" ZipCode="70360" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jettie" LastName="Mconnell">
+  <A Line1="14302 Pennsylvania Ave" Line2="" City="Huntingdon Valley" State="PA" ZipCode="19006" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lemuel" LastName="Latzke">
+  <A Line1="60 Fillmore Ave" Line2="" City="Huntington Beach" State="CA" ZipCode="92647" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Melodie" LastName="Knipp">
+  <A Line1="94 Chase Rd" Line2="" City="Hyattsville" State="MD" ZipCode="20785" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Candida" LastName="Corbley">
+  <A Line1="55 Riverside Ave" Line2="" City="Indianapolis" State="IN" ZipCode="46202" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Karan" LastName="Karpin">
+  <A Line1="55262 N French Rd" Line2="" City="Indianapolis" State="IN" ZipCode="46240" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Andra" LastName="Scheyer">
+  <A Line1="87393 E Highland Rd" Line2="" City="Indianapolis" State="IN" ZipCode="46220" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Felicidad" LastName="Poullion">
+  <A Line1="6538 E Pomona St #60" Line2="" City="Indianapolis" State="IN" ZipCode="46222" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Belen" LastName="Strassner">
+  <A Line1="618 W Yakima Ave" Line2="" City="Irving" State="TX" ZipCode="75062" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gracia" LastName="Melnyk">
+  <A Line1="4 Bloomfield Ave" Line2="" City="Irving" State="TX" ZipCode="75061" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jolanda" LastName="Hanafan">
+  <A Line1="63517 Dupont St" Line2="" City="Jackson" State="MS" ZipCode="39211" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Barrett" LastName="Toyama">
+  <A Line1="11279 Loytan St" Line2="" City="Jacksonville" State="FL" ZipCode="32254" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Helga" LastName="Fredicks">
+  <A Line1="97 Airport Loop Dr" Line2="" City="Jacksonville" State="FL" ZipCode="32216" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ashlyn" LastName="Pinilla">
+  <A Line1="14288 Foster Ave #4121" Line2="" City="Jenkintown" State="PA" ZipCode="19046" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fausto" LastName="Agramonte">
+  <A Line1="4671 Alemany Blvd" Line2="" City="Jersey City" State="NJ" ZipCode="7304" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ronny" LastName="Caiafa">
+  <A Line1="8 Sheridan Rd" Line2="" City="Jersey City" State="NJ" ZipCode="7304" />
+  <A Line1="9 State Highway 57 #22" Line2="" City="Jersey City" State="NJ" ZipCode="7306" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Marge" LastName="Limmel">
+  <A Line1="5 Williams St" Line2="" City="Johnston" State="RI" ZipCode="2919" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Norah" LastName="Waymire">
+  <A Line1="2 A Kelley Dr" Line2="" City="Katonah" State="NY" ZipCode="10536" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Aliza" LastName="Baltimore">
+  <A Line1="4 Cowesett Ave" Line2="" City="Kearny" State="NJ" ZipCode="7032" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mozell" LastName="Pelkowski">
+  <A Line1="20113 4th Ave E" Line2="" City="Kearny" State="NJ" ZipCode="7032" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Viola" LastName="Bitsuie">
+  <A Line1="4252 N Washington Ave #9" Line2="" City="Kennedale" State="TX" ZipCode="76060" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Franklyn" LastName="Emard">
+  <A Line1="8772 Old County Rd #5410" Line2="" City="Kent" State="WA" ZipCode="98032" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Willodean" LastName="Konopacki">
+  <A Line1="3424 29th St Se" Line2="" City="Kerrville" State="TX" ZipCode="78028" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Beckie" LastName="Silvestrini">
+  <A Line1="810 N La Brea Ave" Line2="" City="King of Prussia" State="PA" ZipCode="19406" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rebecka" LastName="Gesick">
+  <A Line1="2371 Jerrold Ave" Line2="" City="Kulpsville" State="PA" ZipCode="19443" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Frederica" LastName="Blunk">
+  <A Line1="4 E Colonial Dr" Line2="" City="La Mesa" State="CA" ZipCode="91942" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glen" LastName="Bartolet">
+  <A Line1="87895 Concord Rd" Line2="" City="La Mesa" State="CA" ZipCode="91942" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Freeman" LastName="Gochal">
+  <A Line1="55 Hawthorne Blvd" Line2="" City="Lafayette" State="LA" ZipCode="70506" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Vincent" LastName="Meinerding">
+  <A Line1="43 Huey P Long Ave" Line2="" City="Lafayette" State="LA" ZipCode="70508" />
+  <A Line1="393 Hammond Dr" Line2="" City="Lafayette" State="LA" ZipCode="70506" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rima" LastName="Bevelacqua">
+  <A Line1="1 Washington St" Line2="" City="Lake Worth" State="FL" ZipCode="33461" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glendora" LastName="Sarbacher">
+  <A Line1="3943 N Highland Ave" Line2="" City="Lancaster" State="PA" ZipCode="17601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Avery" LastName="Steier">
+  <A Line1="206 Main St #2804" Line2="" City="Lansing" State="MI" ZipCode="48933" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cristy" LastName="Lother">
+  <A Line1="56 E Morehead St" Line2="" City="Laredo" State="TX" ZipCode="78045" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nicolette" LastName="Brossart">
+  <A Line1="366 South Dr" Line2="" City="Las Cruces" State="NM" ZipCode="88011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tracey" LastName="Modzelewski">
+  <A Line1="3 Railway Ave #75" Line2="" City="Little Falls" State="NJ" ZipCode="7424" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Virgina" LastName="Tegarden">
+  <A Line1="1844 Southern Blvd" Line2="" City="Little Rock" State="AR" ZipCode="72202" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tiera" LastName="Frankel">
+  <A Line1="2664 Lewis Rd" Line2="" City="Littleton" State="CO" ZipCode="80126" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alaine" LastName="Bergesen">
+  <A Line1="13 S Hacienda Dr" Line2="" City="Livingston" State="NJ" ZipCode="7039" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Earleen" LastName="Mai">
+  <A Line1="2737 Pistorio Rd #9230" Line2="" City="London" State="OH" ZipCode="43140" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leonida" LastName="Gobern">
+  <A Line1="97 E 3rd St #9" Line2="" City="Long Island City" State="NY" ZipCode="11101" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ressie" LastName="Auffrey">
+  <A Line1="50126 N Plankinton Ave" Line2="" City="Longwood" State="FL" ZipCode="32750" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Justine" LastName="Mugnolo">
+  <A Line1="25 E 75th St #69" Line2="" City="Los Angeles" State="CA" ZipCode="90034" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Eladia" LastName="Saulter">
+  <A Line1="5 Tomahawk Dr" Line2="" City="Los Angeles" State="CA" ZipCode="90006" />
+  <A Line1="3882 W Congress St #799" Line2="" City="Los Angeles" State="CA" ZipCode="90016" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Chaya" LastName="Malvin">
+  <A Line1="4119 Metropolitan Dr" Line2="" City="Los Angeles" State="CA" ZipCode="90021" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gwenn" LastName="Suffield">
+  <A Line1="7 W Pinhook Rd" Line2="" City="Lynbrook" State="NY" ZipCode="11563" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Salena" LastName="Karpel">
+  <A Line1="2215 Prosperity Dr" Line2="" City="Lyndhurst" State="NJ" ZipCode="7071" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Yoko" LastName="Fishburne">
+  <A Line1="762 S Main St" Line2="" City="Madison" State="WI" ZipCode="53711" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Taryn" LastName="Moyd">
+  <A Line1="4 Nw 12th St #3849" Line2="" City="Madison" State="WI" ZipCode="53717" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Katina" LastName="Polidori">
+  <A Line1="40 Cambridge Ave" Line2="" City="Madison" State="WI" ZipCode="53715" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rickie" LastName="Plumer">
+  <A Line1="3338 A Lockport Pl #6" Line2="" City="Margate City" State="NJ" ZipCode="8402" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alex" LastName="Loader">
+  <A Line1="54169 N Main St" Line2="" City="Massapequa" State="NY" ZipCode="11758" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lashon" LastName="Vizarro">
+  <A Line1="64 5th Ave #1153" Line2="" City="Mc Lean" State="VA" ZipCode="22102" />
+  <A Line1="5 Cabot Rd" Line2="" City="Mc Lean" State="VA" ZipCode="22102" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lauran" LastName="Burnard">
+  <A Line1="69734 E Carrillo St" Line2="" City="Mc Minnville" State="TN" ZipCode="37110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ceola" LastName="Setter">
+  <A Line1="1 S Pine St" Line2="" City="Memphis" State="TN" ZipCode="38112" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="My" LastName="Rantanen">
+  <A Line1="2759 Livingston Ave" Line2="" City="Memphis" State="TN" ZipCode="38118" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lorrine" LastName="Worlds">
+  <A Line1="2 W Grand Ave" Line2="" City="Memphis" State="TN" ZipCode="38112" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Peggie" LastName="Sturiale">
+  <A Line1="919 Wall Blvd" Line2="" City="Meridian" State="MS" ZipCode="39307" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Marvel" LastName="Raymo">
+  <A Line1="72 Southern Blvd" Line2="" City="Mesa" State="AZ" ZipCode="85204" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Daron" LastName="Dinos">
+  <A Line1="2 Se 3rd Ave" Line2="" City="Mesquite" State="TX" ZipCode="75149" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="An" LastName="Fritz">
+  <A Line1="596 Santa Maria Ave #7913" Line2="" City="Mesquite" State="TX" ZipCode="75150" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Portia" LastName="Stimmel">
+  <A Line1="426 Wolf St" Line2="" City="Metairie" State="LA" ZipCode="70002" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rhea" LastName="Aredondo">
+  <A Line1="678 3rd Ave" Line2="" City="Miami" State="FL" ZipCode="33196" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Benedict" LastName="Sama">
+  <A Line1="32860 Sierra Rd" Line2="" City="Miami" State="FL" ZipCode="33133" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alyce" LastName="Arias">
+  <A Line1="23 Palo Alto Sq" Line2="" City="Miami" State="FL" ZipCode="33134" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Heike" LastName="Berganza">
+  <A Line1="42744 Hamann Industrial Pky #82" Line2="" City="Miami" State="FL" ZipCode="33136" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carey" LastName="Dopico">
+  <A Line1="1644 Clove Rd" Line2="" City="Miami" State="FL" ZipCode="33155" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dottie" LastName="Hellickson">
+  <A Line1="19 Amboy Ave" Line2="" City="Miami" State="FL" ZipCode="33142" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Deandrea" LastName="Hughey">
+  <A Line1="37275 St  Rt 17m M" Line2="" City="Middle Island" State="NY" ZipCode="11953" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kimberlie" LastName="Duenas">
+  <A Line1="481 W Lemon St" Line2="" City="Middleboro" State="MA" ZipCode="2346" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Martina" LastName="Staback">
+  <A Line1="3273 State St" Line2="" City="Middlesex" State="NJ" ZipCode="8846" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Skye" LastName="Fillingim">
+  <A Line1="278 Bayview Ave" Line2="" City="Milan" State="MI" ZipCode="48160" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jade" LastName="Farrar">
+  <A Line1="322 New Horizon Blvd" Line2="" City="Milwaukee" State="WI" ZipCode="53207" />
+  <A Line1="59 Shady Ln #53" Line2="" City="Milwaukee" State="WI" ZipCode="53214" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Charlene" LastName="Hamilton">
+  <A Line1="9 N College Ave #3" Line2="" City="Milwaukee" State="WI" ZipCode="53216" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Geoffrey" LastName="Acey">
+  <A Line1="755 Harbor Way" Line2="" City="Milwaukee" State="WI" ZipCode="53226" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Stevie" LastName="Westerbeck">
+  <A Line1="1950 5th Ave" Line2="" City="Milwaukee" State="WI" ZipCode="53209" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Pamella" LastName="Fortino">
+  <A Line1="25 Minters Chapel Rd #9" Line2="" City="Minneapolis" State="MN" ZipCode="55401" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Harrison" LastName="Haufler">
+  <A Line1="53075 Sw 152nd Ter #615" Line2="" City="Monroe Township" State="NJ" ZipCode="8831" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Johnna" LastName="Engelberg">
+  <A Line1="62260 Park Stre" Line2="" City="Monroe Township" State="NJ" ZipCode="8831" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Buddy" LastName="Cloney">
+  <A Line1="201 Ridgewood Rd" Line2="" City="Moscow" State="ID" ZipCode="83843" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dalene" LastName="Riden">
+  <A Line1="63 Smith Ln #8343" Line2="" City="Moss" State="TN" ZipCode="38575" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jerry" LastName="Zurcher">
+  <A Line1="6 Van Buren St" Line2="" City="Mount Vernon" State="NY" ZipCode="10553" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Haydee" LastName="Denooyer">
+  <A Line1="2094 Montour Blvd" Line2="" City="Muskegon" State="MI" ZipCode="49442" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Joseph" LastName="Cryer">
+  <A Line1="134 Lewis Rd" Line2="" City="Nashville" State="TN" ZipCode="37211" />
+  <A Line1="5221 Bear Valley Rd" Line2="" City="Nashville" State="TN" ZipCode="37211" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Deonna" LastName="Kippley">
+  <A Line1="90177 N 55th Ave" Line2="" City="Nashville" State="TN" ZipCode="37211" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Raymon" LastName="Calvaresi">
+  <A Line1="8139 I Hwy 10 #92" Line2="" City="New Bedford" State="MA" ZipCode="2745" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alecia" LastName="Bubash">
+  <A Line1="9122 Carpenter Ave" Line2="" City="New Haven" State="CT" ZipCode="6511" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ma" LastName="Layous">
+  <A Line1="759 Eldora St" Line2="" City="New Haven" State="CT" ZipCode="6515" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Detra" LastName="Coyier">
+  <A Line1="6649 N Blue Gum St" Line2="" City="New Orleans" State="LA" ZipCode="70116" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Terrilyn" LastName="Rodeigues">
+  <A Line1="3 Secor Rd" Line2="" City="New Orleans" State="LA" ZipCode="70112" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Salome" LastName="Lacovara">
+  <A Line1="3718 S Main St" Line2="" City="New Orleans" State="LA" ZipCode="70130" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Garry" LastName="Keetch">
+  <A Line1="90991 Thorburn Ave" Line2="" City="New York" State="NY" ZipCode="10011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Matthew" LastName="Neither">
+  <A Line1="2742 Distribution Way" Line2="" City="New York" State="NY" ZipCode="10025" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Theodora" LastName="Restrepo">
+  <A Line1="128 Bransten Rd" Line2="" City="New York" State="NY" ZipCode="10011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Noah" LastName="Kalafatis">
+  <A Line1="4486 W O St #1" Line2="" City="New York" State="NY" ZipCode="10003" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Carmen" LastName="Sweigard">
+  <A Line1="3305 Nabell Ave #679" Line2="" City="New York" State="NY" ZipCode="10009" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lavonda" LastName="Hengel">
+  <A Line1="8 Industry Ln" Line2="" City="New York" State="NY" ZipCode="10002" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Junita" LastName="Stoltzman">
+  <A Line1="229 N Forty Driv" Line2="" City="New York" State="NY" ZipCode="10011" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Herminia" LastName="Nicolozakes">
+  <A Line1="5 Harrison Rd" Line2="" City="New York" State="NY" ZipCode="10038" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Casie" LastName="Good">
+  <A Line1="38062 E Main St" Line2="" City="New York" State="NY" ZipCode="10048" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Reena" LastName="Maisto">
+  <A Line1="25346 New Rd" Line2="" City="New York" State="NY" ZipCode="10016" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mirta" LastName="Mallett">
+  <A Line1="7 S San Marcos Rd" Line2="" City="New York" State="NY" ZipCode="10004" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cathrine" LastName="Pontoriero">
+  <A Line1="87163 N Main Ave" Line2="" City="New York" State="NY" ZipCode="10013" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Filiberto" LastName="Tawil">
+  <A Line1="3 Lawton St" Line2="" City="New York" State="NY" ZipCode="10013" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Raul" LastName="Upthegrove">
+  <A Line1="18 3rd Ave" Line2="" City="New York" State="NY" ZipCode="10016" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sarah" LastName="Candlish">
+  <A Line1="47565 W Grand Ave" Line2="" City="Newark" State="NJ" ZipCode="7105" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lucy" LastName="Treston">
+  <A Line1="6794 Lake Dr E" Line2="" City="Newark" State="NJ" ZipCode="7104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Judy" LastName="Aquas">
+  <A Line1="32820 Corkwood Rd" Line2="" City="Newark" State="NJ" ZipCode="7104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Yvonne" LastName="Tjepkema">
+  <A Line1="1610 14th St Nw" Line2="" City="Newport News" State="VA" ZipCode="23608" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kayleigh" LastName="Lace">
+  <A Line1="8977 Connecticut Ave Nw #3" Line2="" City="Niles" State="MI" ZipCode="49120" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Felix" LastName="Hirpara">
+  <A Line1="4 Carroll St" Line2="" City="North Attleboro" State="MA" ZipCode="2760" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tresa" LastName="Sweely">
+  <A Line1="78112 Morris Ave" Line2="" City="North Haven" State="CT" ZipCode="6473" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kristeen" LastName="Turinetti">
+  <A Line1="41 Steel Ct" Line2="" City="Northfield" State="MN" ZipCode="55057" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jenelle" LastName="Regusters">
+  <A Line1="70 Mechanic St" Line2="" City="Northridge" State="CA" ZipCode="91325" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Renea" LastName="Monterrubio">
+  <A Line1="49440 Dearborn St" Line2="" City="Norwalk" State="CT" ZipCode="6854" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Olive" LastName="Matuszak">
+  <A Line1="1933 Packer Ave #2" Line2="" City="Novato" State="CA" ZipCode="94945" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ligia" LastName="Reiber">
+  <A Line1="993 Washington Ave" Line2="" City="Nutley" State="NJ" ZipCode="7110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Christiane" LastName="Eschberger">
+  <A Line1="27846 Lafayette Ave" Line2="" City="Oak Hill" State="FL" ZipCode="32759" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Goldie" LastName="Schirpke">
+  <A Line1="72868 Blackington Ave" Line2="" City="Oakland" State="CA" ZipCode="94606" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Loreta" LastName="Timenez">
+  <A Line1="82 N Highway 67" Line2="" City="Oakley" State="CA" ZipCode="94561" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Fabiola" LastName="Hauenstein">
+  <A Line1="6 Ridgewood Center Dr" Line2="" City="Old Forge" State="PA" ZipCode="18518" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Amie" LastName="Perigo">
+  <A Line1="21575 S Apple Creek Rd" Line2="" City="Omaha" State="NE" ZipCode="68124" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Raina" LastName="Brachle">
+  <A Line1="52777 Leaders Heights Rd" Line2="" City="Ontario" State="CA" ZipCode="91761" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Erinn" LastName="Canlas">
+  <A Line1="703 Beville Rd" Line2="" City="Opa Locka" State="FL" ZipCode="33054" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cherry" LastName="Lietz">
+  <A Line1="1 N Harlem Ave #9" Line2="" City="Orange" State="NJ" ZipCode="7050" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kattie" LastName="Vonasek">
+  <A Line1="93 Redmond Rd #492" Line2="" City="Orlando" State="FL" ZipCode="32803" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lilli" LastName="Scriven">
+  <A Line1="7 W Wabansia Ave #227" Line2="" City="Orlando" State="FL" ZipCode="32822" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Whitley" LastName="Tomasulo">
+  <A Line1="2139 Santa Rosa Ave" Line2="" City="Orlando" State="FL" ZipCode="32801" />
+  <A Line1="75698 N Fiesta Blvd" Line2="" City="Orlando" State="FL" ZipCode="32806" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Hermila" LastName="Thyberg">
+  <A Line1="63 E Aurora Dr" Line2="" City="Orlando" State="FL" ZipCode="32804" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jesusita" LastName="Flister">
+  <A Line1="77 222 Dr" Line2="" City="Oroville" State="CA" ZipCode="95965" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Caitlin" LastName="Julia">
+  <A Line1="7219 Woodfield Rd" Line2="" City="Overland Park" State="KS" ZipCode="66204" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Roosevelt" LastName="Hoffis">
+  <A Line1="55892 Jacksonville Rd" Line2="" City="Owings Mills" State="MD" ZipCode="21117" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Helaine" LastName="Halter">
+  <A Line1="94290 S Buchanan St" Line2="" City="Pacifica" State="CA" ZipCode="94044" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lorean" LastName="Martabano">
+  <A Line1="7 West Ave #1" Line2="" City="Palatine" State="IL" ZipCode="60067" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="France" LastName="Buzick">
+  <A Line1="3 State Route 35 S" Line2="" City="Paramus" State="NJ" ZipCode="7652" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Justine" LastName="Ferrario">
+  <A Line1="5 W 7th St" Line2="" City="Parkville" State="MD" ZipCode="21234" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Adelina" LastName="Nabours">
+  <A Line1="18 Coronado Ave #563" Line2="" City="Pasadena" State="CA" ZipCode="91106" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Derick" LastName="Dhamer">
+  <A Line1="3381 E 40th Ave" Line2="" City="Passaic" State="NJ" ZipCode="7055" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jerry" LastName="Dallen">
+  <A Line1="2726 Charcot Ave" Line2="" City="Paterson" State="NJ" ZipCode="7501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leota" LastName="Ragel">
+  <A Line1="36 Lancaster Dr Se" Line2="" City="Pearl" State="MS" ZipCode="39208" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jutta" LastName="Amyot">
+  <A Line1="65 W Maple Ave" Line2="" City="Pearl City" State="HI" ZipCode="96782" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Aja" LastName="Gehrett">
+  <A Line1="8429 Miller Rd" Line2="" City="Pelham" State="NY" ZipCode="10803" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kirk" LastName="Herritt">
+  <A Line1="347 Chestnut St" Line2="" City="Peoria" State="AZ" ZipCode="85381" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leonora" LastName="Mauson">
+  <A Line1="6 Harry L Dr #6327" Line2="" City="Perrysburg" State="OH" ZipCode="43551" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Winfred" LastName="Brucato">
+  <A Line1="209 Decker Dr" Line2="" City="Philadelphia" State="PA" ZipCode="19132" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tarra" LastName="Nachor">
+  <A Line1="3 Fort Worth Ave" Line2="" City="Philadelphia" State="PA" ZipCode="19106" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Corinne" LastName="Loder">
+  <A Line1="63381 Jenks Ave" Line2="" City="Philadelphia" State="PA" ZipCode="19134" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dulce" LastName="Labreche">
+  <A Line1="992 Civic Center Dr" Line2="" City="Philadelphia" State="PA" ZipCode="19123" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kate" LastName="Keneipp">
+  <A Line1="73 Southern Blvd" Line2="" City="Philadelphia" State="PA" ZipCode="19103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kaitlyn" LastName="Ogg">
+  <A Line1="4379 Highway 116" Line2="" City="Philadelphia" State="PA" ZipCode="19103" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sherita" LastName="Saras">
+  <A Line1="4441 Point Term Mkt" Line2="" City="Philadelphia" State="PA" ZipCode="19143" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lashawnda" LastName="Stuer">
+  <A Line1="910 Rahway Ave" Line2="" City="Philadelphia" State="PA" ZipCode="19102" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ernest" LastName="Syrop">
+  <A Line1="73 State Road 434 E" Line2="" City="Phoenix" State="AZ" ZipCode="85013" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nobuko" LastName="Halsey">
+  <A Line1="1 Huntwood Ave" Line2="" City="Phoenix" State="AZ" ZipCode="85017" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lavonna" LastName="Wolny">
+  <A Line1="96541 W Central Blvd" Line2="" City="Phoenix" State="AZ" ZipCode="85034" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lashaunda" LastName="Lizama">
+  <A Line1="86350 Roszel Rd" Line2="" City="Phoenix" State="AZ" ZipCode="85012" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mariann" LastName="Bilden">
+  <A Line1="9 W Central Ave" Line2="" City="Phoenix" State="AZ" ZipCode="85013" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Helene" LastName="Rodenberger">
+  <A Line1="90131 J St" Line2="" City="Pittstown" State="NJ" ZipCode="8867" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Roselle" LastName="Estell">
+  <A Line1="30553 Washington Rd" Line2="" City="Plainfield" State="NJ" ZipCode="7062" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Samira" LastName="Heintzman">
+  <A Line1="66552 Malone Rd" Line2="" City="Plaistow" State="NH" ZipCode="3865" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Margart" LastName="Meisel">
+  <A Line1="13 Gunnison St" Line2="" City="Plano" State="TX" ZipCode="75075" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kristofer" LastName="Bennick">
+  <A Line1="48 Stratford Ave" Line2="" City="Pomona" State="CA" ZipCode="91768" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Weldon" LastName="Acuff">
+  <A Line1="53 W Carey St" Line2="" City="Port Jervis" State="NY" ZipCode="12771" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Shalon" LastName="Shadrick">
+  <A Line1="1 Commerce Way" Line2="" City="Portland" State="OR" ZipCode="97224" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Denise" LastName="Patak">
+  <A Line1="4940 Pulaski Park Dr" Line2="" City="Portland" State="OR" ZipCode="97202" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Louvenia" LastName="Beech">
+  <A Line1="60480 Old Us Highway 51" Line2="" City="Preston" State="MD" ZipCode="21655" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Audry" LastName="Yaw">
+  <A Line1="2881 Lewis Rd" Line2="" City="Prineville" State="OR" ZipCode="97754" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kristel" LastName="Ehmann">
+  <A Line1="65895 S 16th St" Line2="" City="Providence" State="RI" ZipCode="2909" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Vincenza" LastName="Zepp">
+  <A Line1="201 Hawk Ct" Line2="" City="Providence" State="RI" ZipCode="2904" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elouise" LastName="Gwalthney">
+  <A Line1="1 Rancho Del Mar Shopping C" Line2="" City="Providence" State="RI" ZipCode="2903" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Venita" LastName="Maillard">
+  <A Line1="9 Hwy" Line2="" City="Providence" State="RI" ZipCode="2906" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kasandra" LastName="Semidey">
+  <A Line1="987 Main St" Line2="" City="Raleigh" State="NC" ZipCode="27601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Xochitl" LastName="Discipio">
+  <A Line1="3958 S Dupont Hwy #7" Line2="" City="Ramsey" State="NJ" ZipCode="7446" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Maile" LastName="Linahan">
+  <A Line1="9745 W Main St" Line2="" City="Randolph" State="NJ" ZipCode="7869" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Krissy" LastName="Rauser">
+  <A Line1="73 Saint Ann St #86" Line2="" City="Reno" State="NV" ZipCode="89502" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Pete" LastName="Dubaldi">
+  <A Line1="8 Mcarthur Ln" Line2="" City="Richboro" State="PA" ZipCode="18954" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Linn" LastName="Paa">
+  <A Line1="36 Enterprise St Se" Line2="" City="Richland" State="WA" ZipCode="99352" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Paris" LastName="Wide">
+  <A Line1="39 Franklin Ave" Line2="" City="Richland" State="WA" ZipCode="99352" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Wynell" LastName="Dorshorst">
+  <A Line1="9677 Commerce Dr" Line2="" City="Richmond" State="VA" ZipCode="23219" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Quentin" LastName="Birkner">
+  <A Line1="393 Lafayette Ave" Line2="" City="Richmond" State="VA" ZipCode="23219" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Regenia" LastName="Kannady">
+  <A Line1="45 E Liberty St" Line2="" City="Ridgefield Park" State="NJ" ZipCode="7660" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sheron" LastName="Louissant">
+  <A Line1="2409 Alabama Rd" Line2="" City="Riverside" State="CA" ZipCode="92501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Izetta" LastName="Funnell">
+  <A Line1="9939 N 14th St" Line2="" City="Riverton" State="NJ" ZipCode="8077" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rodolfo" LastName="Butzen">
+  <A Line1="66697 Park Pl #3224" Line2="" City="Riverton" State="WY" ZipCode="82501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Zona" LastName="Colla">
+  <A Line1="9581 E Arapahoe Rd" Line2="" City="Rochester" State="MI" ZipCode="48307" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Serina" LastName="Zagen">
+  <A Line1="7140 University Ave" Line2="" City="Rock Springs" State="WY" ZipCode="82901" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Paz" LastName="Sahagun">
+  <A Line1="798 Lund Farm Way" Line2="" City="Rockaway" State="NJ" ZipCode="7866" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Markus" LastName="Lukasik">
+  <A Line1="394 Manchester Blvd" Line2="" City="Rockford" State="IL" ZipCode="61109" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jaclyn" LastName="Bachman">
+  <A Line1="2140 Diamond Blvd" Line2="" City="Rohnert Park" State="CA" ZipCode="94928" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cyril" LastName="Daufeldt">
+  <A Line1="26849 Jefferson Hwy" Line2="" City="Rolling Meadows" State="IL" ZipCode="60008" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gayla" LastName="Schnitzler">
+  <A Line1="81 Norris Ave #525" Line2="" City="Ronkonkoma" State="NY" ZipCode="11779" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Erick" LastName="Nievas">
+  <A Line1="433 Westminster Blvd #590" Line2="" City="Roseville" State="CA" ZipCode="95661" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jennie" LastName="Drymon">
+  <A Line1="5 Washington St #1" Line2="" City="Roseville" State="CA" ZipCode="95678" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mitsue" LastName="Scipione">
+  <A Line1="17 Us Highway 111" Line2="" City="Round Rock" State="TX" ZipCode="78664" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ciara" LastName="Ventura">
+  <A Line1="3158 Runamuck Pl" Line2="" City="Round Rock" State="TX" ZipCode="78664" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Galen" LastName="Cantres">
+  <A Line1="6916 W Main St" Line2="" City="Sacramento" State="CA" ZipCode="95827" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Truman" LastName="Feichtner">
+  <A Line1="1953 Telegraph Rd" Line2="" City="Saint Joseph" State="MO" ZipCode="64504" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gail" LastName="Kitty">
+  <A Line1="4923 Carey Ave" Line2="" City="Saint Louis" State="MO" ZipCode="63104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dalene" LastName="Schoeneck">
+  <A Line1="369 Latham St #500" Line2="" City="Saint Louis" State="MO" ZipCode="63102" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gertude" LastName="Witten">
+  <A Line1="2023 Greg St" Line2="" City="Saint Paul" State="MN" ZipCode="55101" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lizbeth" LastName="Kohl">
+  <A Line1="9 Church St" Line2="" City="Salem" State="OR" ZipCode="97302" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glenn" LastName="Berray">
+  <A Line1="9648 S Main" Line2="" City="Salisbury" State="MD" ZipCode="21801" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lashandra" LastName="Klang">
+  <A Line1="51120 State Route 18" Line2="" City="Salt Lake City" State="UT" ZipCode="84115" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lenna" LastName="Newville">
+  <A Line1="775 W 17th St" Line2="" City="San Antonio" State="TX" ZipCode="78204" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Laurel" LastName="Pagliuca">
+  <A Line1="85092 Southern Blvd" Line2="" City="San Antonio" State="TX" ZipCode="78204" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mireya" LastName="Frerking">
+  <A Line1="4 S Washington Ave" Line2="" City="San Bernardino" State="CA" ZipCode="92410" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Annelle" LastName="Tagala">
+  <A Line1="30 W 80th St #1995" Line2="" City="San Carlos" State="CA" ZipCode="94070" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dean" LastName="Ketelsen">
+  <A Line1="1 Century Park E" Line2="" City="San Diego" State="CA" ZipCode="92110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Levi" LastName="Munis">
+  <A Line1="469 Outwater Ln" Line2="" City="San Diego" State="CA" ZipCode="92126" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sylvie" LastName="Ryser">
+  <A Line1="701 S Harrison Rd" Line2="" City="San Francisco" State="CA" ZipCode="94104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sharee" LastName="Maile">
+  <A Line1="3717 Hamann Industrial Pky" Line2="" City="San Francisco" State="CA" ZipCode="94104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cordelia" LastName="Storment">
+  <A Line1="6 Middlegate Rd #106" Line2="" City="San Francisco" State="CA" ZipCode="94107" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mollie" LastName="Mcdoniel">
+  <A Line1="39 Moccasin Dr" Line2="" City="San Francisco" State="CA" ZipCode="94104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Brett" LastName="Mccullan">
+  <A Line1="10276 Brooks St" Line2="" City="San Francisco" State="CA" ZipCode="94105" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Teddy" LastName="Pedrozo">
+  <A Line1="83649 W Belmont Ave" Line2="" City="San Gabriel" State="CA" ZipCode="91776" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tasia" LastName="Andreason">
+  <A Line1="7 W Jackson Blvd" Line2="" City="San Jose" State="CA" ZipCode="95111" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Hubert" LastName="Walthall">
+  <A Line1="6 Greenleaf Ave" Line2="" City="San Jose" State="CA" ZipCode="95111" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Arthur" LastName="Farrow">
+  <A Line1="99385 Charity St #840" Line2="" City="San Jose" State="CA" ZipCode="95110" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Vilma" LastName="Berlanga">
+  <A Line1="1128 Delaware St" Line2="" City="San Jose" State="CA" ZipCode="95132" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Billye" LastName="Miro">
+  <A Line1="68556 Central Hwy" Line2="" City="San Leandro" State="CA" ZipCode="94577" />
+  <A Line1="524 Louisiana Ave Nw" Line2="" City="San Leandro" State="CA" ZipCode="94577" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glenna" LastName="Slayton">
+  <A Line1="2 Monroe St" Line2="" City="San Mateo" State="CA" ZipCode="94403" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mitzie" LastName="Hudnall">
+  <A Line1="98 University Dr" Line2="" City="San Ramon" State="CA" ZipCode="94583" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Bernardine" LastName="Rodefer">
+  <A Line1="11360 S Halsted St" Line2="" City="Santa Ana" State="CA" ZipCode="92705" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Staci" LastName="Schmaltz">
+  <A Line1="195 13n N" Line2="" City="Santa Clara" State="CA" ZipCode="95054" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nichelle" LastName="Meteer">
+  <A Line1="985 E 6th Ave" Line2="" City="Santa Rosa" State="CA" ZipCode="95407" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Janine" LastName="Rhoden">
+  <A Line1="251 Park Ave #979" Line2="" City="Saratoga" State="CA" ZipCode="95070" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ettie" LastName="Hoopengardner">
+  <A Line1="77 Massillon Rd #822" Line2="" City="Satellite Beach" State="FL" ZipCode="32937" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Eden" LastName="Jayson">
+  <A Line1="4 58th St #3519" Line2="" City="Scottsdale" State="AZ" ZipCode="85254" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lynelle" LastName="Auber">
+  <A Line1="10759 Main St" Line2="" City="Scottsdale" State="AZ" ZipCode="85260" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Merissa" LastName="Tomblin">
+  <A Line1="63728 Poway Rd #1" Line2="" City="Scranton" State="PA" ZipCode="18509" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Golda" LastName="Kaniecki">
+  <A Line1="67 E Chestnut Hill Rd" Line2="" City="Seattle" State="WA" ZipCode="98133" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Catarina" LastName="Gleich">
+  <A Line1="61556 W 20th Ave" Line2="" City="Seattle" State="WA" ZipCode="98104" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Virgie" LastName="Kiel">
+  <A Line1="636 Commerce Dr #42" Line2="" City="Shakopee" State="MN" ZipCode="55379" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jolene" LastName="Ostolaza">
+  <A Line1="86 Nw 66th St #8673" Line2="" City="Shawnee" State="KS" ZipCode="66218" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Keneth" LastName="Borgman">
+  <A Line1="5 Boston Ave #88" Line2="" City="Sioux Falls" State="SD" ZipCode="57105" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Rikki" LastName="Nayar">
+  <A Line1="749 W 18th St #45" Line2="" City="Smithfield" State="NC" ZipCode="27577" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elke" LastName="Sengbusch">
+  <A Line1="61304 N French Rd" Line2="" City="Somerset" State="NJ" ZipCode="8873" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Hoa" LastName="Sarao">
+  <A Line1="406 Main St" Line2="" City="Somerville" State="NJ" ZipCode="8876" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Trinidad" LastName="Mcrae">
+  <A Line1="55713 Lake City Hwy" Line2="" City="South Bend" State="IN" ZipCode="46601" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Mari" LastName="Lueckenbach">
+  <A Line1="577 Parade St" Line2="" City="South San Francisco" State="CA" ZipCode="94080" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Selma" LastName="Husser">
+  <A Line1="5 Green Pond Rd #4" Line2="" City="Southampton" State="PA" ZipCode="18966" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Antione" LastName="Onofrio">
+  <A Line1="57 Haven Ave #90" Line2="" City="Southfield" State="MI" ZipCode="48075" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Luisa" LastName="Jurney">
+  <A Line1="84 Bloomfield Ave" Line2="" City="Spartanburg" State="SC" ZipCode="29301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Clorinda" LastName="Heimann">
+  <A Line1="44 W 4th St" Line2="" City="Staten Island" State="NY" ZipCode="10309" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Dick" LastName="Wenzinger">
+  <A Line1="89 20th St E #779" Line2="" City="Sterling Heights" State="MI" ZipCode="48310" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ahmed" LastName="Angalich">
+  <A Line1="1 Central Ave" Line2="" City="Stevens Point" State="WI" ZipCode="54481" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Iluminada" LastName="Ohms">
+  <A Line1="3196 S Rider Trl" Line2="" City="Stockton" State="CA" ZipCode="95207" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Joanna" LastName="Leinenbach">
+  <A Line1="944 Gaither Dr" Line2="" City="Strongsville" State="OH" ZipCode="44136" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Caprice" LastName="Suell">
+  <A Line1="62 W Austin St" Line2="" City="Syosset" State="NY" ZipCode="11791" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Stephane" LastName="Myricks">
+  <A Line1="422 E 21st St" Line2="" City="Syracuse" State="NY" ZipCode="13214" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Quentin" LastName="Swayze">
+  <A Line1="37 N Elm St #916" Line2="" City="Tacoma" State="WA" ZipCode="98409" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Annmarie" LastName="Castros">
+  <A Line1="8 Fair Lawn Ave" Line2="" City="Tampa" State="FL" ZipCode="33614" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Shonda" LastName="Greenbush">
+  <A Line1="3211 E Northeast Loop" Line2="" City="Tampa" State="FL" ZipCode="33619" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cecil" LastName="Lapage">
+  <A Line1="1 State Route 27" Line2="" City="Taylor" State="MI" ZipCode="48180" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jeanice" LastName="Claucherty">
+  <A Line1="5 N Cleveland Massillon Rd" Line2="" City="Thousand Oaks" State="CA" ZipCode="91362" />
+  <A Line1="326 E Main St #6496" Line2="" City="Thousand Oaks" State="CA" ZipCode="91362" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Josphine" LastName="Villanueva">
+  <A Line1="62 Monroe St" Line2="" City="Thousand Palms" State="CA" ZipCode="92276" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Daniel" LastName="Perruzza">
+  <A Line1="3 N Groesbeck Hwy" Line2="" City="Toledo" State="OH" ZipCode="43613" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cassi" LastName="Wildfong">
+  <A Line1="7422 Martin Ave #8" Line2="" City="Toledo" State="OH" ZipCode="43607" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Britt" LastName="Galam">
+  <A Line1="6201 S Nevada Ave" Line2="" City="Toms River" State="NJ" ZipCode="8755" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Adell" LastName="Lipkin">
+  <A Line1="7 Flowers Rd #403" Line2="" City="Trenton" State="NJ" ZipCode="8611" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jacqueline" LastName="Rowling">
+  <A Line1="99 5th Ave #33" Line2="" City="Trion" State="GA" ZipCode="30753" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lonny" LastName="Weglarz">
+  <A Line1="9 Norristown Rd" Line2="" City="Troy" State="NY" ZipCode="12180" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Lonna" LastName="Diestel">
+  <A Line1="39 S 7th St" Line2="" City="Tullahoma" State="TN" ZipCode="37388" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cristal" LastName="Samara">
+  <A Line1="2239 Shawnee Mission Pky" Line2="" City="Tullahoma" State="TN" ZipCode="37388" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Kenneth" LastName="Grenet">
+  <A Line1="649 Tulane Ave" Line2="" City="Tulsa" State="OK" ZipCode="74105" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Elli" LastName="Mclaird">
+  <A Line1="4 Stovall St #72" Line2="" City="Union City" State="NJ" ZipCode="7087" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Alline" LastName="Jeanty">
+  <A Line1="6 Sunrise Ave" Line2="" City="Utica" State="NY" ZipCode="13501" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sharika" LastName="Eanes">
+  <A Line1="22 Bridle Ln" Line2="" City="Valley Park" State="MO" ZipCode="63088" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nu" LastName="Mcnease">
+  <A Line1="4 Otis St" Line2="" City="Van Nuys" State="CA" ZipCode="91405" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Daniela" LastName="Comnick">
+  <A Line1="8739 Hudson St" Line2="" City="Vashon" State="WA" ZipCode="98070" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Cecilia" LastName="Colaizzo">
+  <A Line1="88 15th Ave Ne" Line2="" City="Vestal" State="NY" ZipCode="13850" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Leslie" LastName="Threets">
+  <A Line1="840 15th Ave" Line2="" City="Waco" State="TX" ZipCode="76708" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nan" LastName="Koppinger">
+  <A Line1="8927 Vandever Ave" Line2="" City="Waco" State="TX" ZipCode="76707" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Izetta" LastName="Dewar">
+  <A Line1="96263 Greenwood Pl" Line2="" City="Warren" State="ME" ZipCode="4864" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Tegan" LastName="Arceo">
+  <A Line1="9 Front St" Line2="" City="Washington" State="DC" ZipCode="20001" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ruthann" LastName="Keener">
+  <A Line1="40 9th Ave Sw #91" Line2="" City="Waterford" State="MI" ZipCode="48329" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Joni" LastName="Breland">
+  <A Line1="71 San Mateo Ave" Line2="" City="Wayne" State="PA" ZipCode="19087" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Vi" LastName="Rentfro">
+  <A Line1="74989 Brandon St" Line2="" City="Wellsville" State="NY" ZipCode="14895" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Colette" LastName="Kardas">
+  <A Line1="1 Midway Rd" Line2="" City="Westborough" State="MA" ZipCode="1581" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Malcolm" LastName="Tromblay">
+  <A Line1="4545 Courthouse Rd" Line2="" City="Westbury" State="NY" ZipCode="11590" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Ryan" LastName="Harnos">
+  <A Line1="44 58th St" Line2="" City="Wheeling" State="IL" ZipCode="60090" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Jess" LastName="Chaffins">
+  <A Line1="65 Mountain View Dr" Line2="" City="Whippany" State="NJ" ZipCode="7981" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Sharen" LastName="Bourbon">
+  <A Line1="6535 Joyce St" Line2="" City="Wichita Falls" State="TX" ZipCode="76301" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Nickolas" LastName="Juvera">
+  <A Line1="5 Little River Tpke" Line2="" City="Wilmington" State="MA" ZipCode="1887" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Gary" LastName="Nunlee">
+  <A Line1="3 Aspen St" Line2="" City="Worcester" State="MA" ZipCode="1602" />
+  <A Line1="57254 Brickell Ave #372" Line2="" City="Worcester" State="MA" ZipCode="1602" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Diane" LastName="Devreese">
+  <A Line1="2094 Ne 36th Ave" Line2="" City="Worcester" State="MA" ZipCode="1603" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Roslyn" LastName="Chavous">
+  <A Line1="7667 S Hulen St #42" Line2="" City="Yonkers" State="NY" ZipCode="10701" />
+</C>
+<C xmlns="CustomerAddresses" FirstName="Glory" LastName="Schieler">
+  <A Line1="8573 Lincoln Blvd" Line2="" City="York" State="PA" ZipCode="17404" />
+</C>
